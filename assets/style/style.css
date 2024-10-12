@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+}
+
+.welcome-section {
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0) 0%, rgba(113, 222, 202, 0.68) 30%),
+  linear-gradient(0deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.22));
+  height: 100svh;
+
+}
+
+.welcome-section .container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10% 0px;
+}
+
+.welcome-section .container .welcome-logo {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: 0px auto 24px;
+  filter: drop-shadow(2px 2px 5px rgba(255, 255, 255, 0.5));
+}
+
+.welcome-section .container .welcome-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  text-shadow: #fff;
+}
+
+.welcome-section .container .welcome-text {
+  max-width: 1000px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  margin: 12px auto 26px;
+}
+
+.welcome-section .container .welcome-cta {
+  display: block;
+  width: fit-content;
+  margin: 0px auto;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 15px 19px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.welcome-section .container .welcome-cta svg path{
+  fill: white;
+}
+
+.welcome-section .container .welcome-cta svg {
+  vertical-align: middle;
+  margin-bottom: 4px;
+  margin-right: 2px;
+}
