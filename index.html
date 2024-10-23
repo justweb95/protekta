@@ -12,18 +12,261 @@
   </head>
 
   <body>
-      <section class="welcome-section">
-        <div class="container">
-          <img class="welcome-logo" src="./assets/images/protekta-logo.svg" alt="Protekta Logo">
-          <h1 class="welcome-h1">Sajt u izradi - uskoro ćemo biti sa vama!</h1>
-          <p class="welcome-text">Hvala vam na strpljenju! Radimo na tome da vam pružimo najbolje moguće iskustvo. Uskoro ćemo biti dostupni sa svim našim uslugama.</p>
-          <a class="welcome-cta" href="tel:+381603840740">
-            <svg width="21" height="21" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M11.742 8.56525L15.9187 12.7419L13.8047 14.8559C13.4362 15.2228 12.9986 15.5128 12.5171 15.7092C12.0357 15.9056 11.52 16.0044 11 15.9999C6.16808 15.9999 0.000130066 9.83191 0.000130066 4.99995C-0.00409877 4.47995 0.0948305 3.96426 0.291194 3.48274C0.487558 3.00121 0.777457 2.56341 1.14412 2.19465L3.2581 0.0813326L7.43474 4.25796L4.68476 7.00793C5.5023 8.95077 7.04579 10.4978 8.98672 11.3199L11.742 8.56525ZM14.6667 6.6666H16C15.9981 4.89911 15.2951 3.20456 14.0453 1.95475C12.7954 0.704937 11.1009 0.00194105 9.33339 0V1.33332C10.7474 1.33491 12.103 1.89732 13.1028 2.89716C14.1027 3.897 14.6651 5.25262 14.6667 6.6666ZM12 6.6666H13.3334C13.3323 5.60607 12.9105 4.58928 12.1606 3.83937C11.4107 3.08946 10.3939 2.6677 9.33339 2.66664V3.99996C10.0406 3.99996 10.7189 4.28091 11.219 4.781C11.7191 5.2811 12 5.95937 12 6.6666Z" fill="#39C1FF"/>
-            </svg>
-            +381603840740      
-          </a>
+    <!-- Header -->
+    <header class="main-header">
+      <div class="header-holder container">
+        <a class="logo-link" href=""><img src="/assets/images/header-logo.svg" alt="Protekta Header Logo"></a>
+        <ul class="nav-list">
+          <li class="nav-link"><a class="link active-link" href="#o-nama">O nama</a></li>
+          <li class="nav-link"><a class="link" href="#usluge">Usluge</a></li>
+          <li class="nav-link"><a class="link" href="#blog">blog</a></li>
+          <li class="nav-link"><a class="link" href="#kontakt">Kontakt</a></li>
+          <li class="nav-link"><a class="link big-white" href="#zakazivanje">Online zakazivanje</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero-section">
+      <div class="hero-holder container">
+        <article class="hero-content">
+          <h1>Osmeh <br> koji zaslužujete</h1>
+          <p class="hero-p">Vrhunskom uslugom, kontinuiranim edukacijama
+            i praćenjem najnovijih trendova, iz sveta stomatologije, naš stručni tim će se pobrinuti da dobijete osmeh koji zaslužujete.</p>
+          <a class="hero-btn" href="#o-nama">O nama</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- O Nama -->
+    <section class="about-section">
+      <div class="about-holder container">
+        <article class="about-content">
+          <h2>O nama</h2>
+
+          <p>Stručni tim stomatološke ordinacije Protekta čine <span>dr Anđela Stanković</span> i <span>dr Velibor Stanković</span> sa stručnim saradnicima raznih specijalnosti (oralni hirurg, specijalista ortodocije) i specijalizovana zubna tehnika.</p>          
+
+          <p>Zajedno pružamo sve vrste usluga iz domena stomatologije, koristeći najsavremeniju opremu i materijale premium   brendova u novom, moderno uređenom i prijatnom ambijentu, a u cilju pružanja maksimalnog komfora, zadovoljstva i vraćanja zdravog osmeha na lice našim dragim pacijentima.</p>
+            
+          <p><span>PROTEKTA</span> tim,<br>Čuvari vašeg osmeha.</p>
+          
+          <button class="gallery-open">Galerija</button>
+          
+          <dialog id="gallery-dialog" class="gallery-dialog">
+            <div class="gallery-dialog-header">
+              <img class="gallery-logo" src="./assets/images/female-doc.webp" alt="Gallery Logo">
+              <img class="gallery-close-btn" src="./assets//images/gallery-close-btn.svg" alt="Gallery Close Button">
+            </div>
+
+            <article class="gallery-items">
+              <img class="active-image" src="./assets/images/gallery/gallery-item.webp" alt="Gallery Item">
+              <img class="active-image" src="./assets/images/gallery/gallery-item.webp" alt="Gallery Item">
+              <img class="active-image" src="./assets/images/gallery/gallery-item.webp" alt="Gallery Item">
+              <img class="active-image" src="./assets/images/gallery/gallery-item.webp" alt="Gallery Item">
+              <img class="active-image" src="./assets/images/gallery/gallery-item.webp" alt="Gallery Item">
+              <img class="active-image" src="./assets/images/gallery/gallery-item.webp" alt="Gallery Item">
+              <img class="active-image" src="./assets/images/gallery/gallery-item.webp" alt="Gallery Item">
+              <img class="active-image" src="./assets/images/gallery/gallery-item.webp" alt="Gallery Item">
+              <img class="active-image" src="./assets/images/gallery/gallery-item.webp" alt="Gallery Item">
+
+              <img class="" src="./assets/images/gallery/gallery-item.webp" alt="Gallery Item">
+              <img class="" src="./assets/images/gallery/gallery-item.webp" alt="Gallery Item">
+              <img class="" src="./assets/images/gallery/gallery-item.webp" alt="Gallery Item">
+            </article>
+
+            <span class="gallery-see-more">
+              <button class="gsm-btn">Vidi više</button>
+              <svg class="gsm-svg" width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.0788 14.3387L23.8805 3.537C24.4015 3.01604 24.4015 2.17144 23.8805 1.65054L22.6207 0.390703C22.1006 -0.129363 21.2577 -0.130363 20.7364 0.38848L12.1356 8.94903L3.53479 0.38848C3.0135 -0.130363 2.17062 -0.129363 1.65056 0.390703L0.390716 1.65054C-0.130239 2.1715 -0.130239 3.0161 0.390716 3.537L11.1924 14.3387C11.7133 14.8596 12.5579 14.8596 13.0788 14.3387Z" fill="#07BCB3"/>
+              </svg>                
+            </span>
+          </dialog>
+        </article>
+
+        <div class="about-image">
+          <span class="img-holder"><img src="./assets/images/female-doc.webp" alt="Female Doctor" class="female-doc"></span>
+          <span class="img-holder">
+            <img src="./assets/images/male-doc.webp" alt="Male Doctor" class="male-doc">  
+          </span>
         </div>
-      </section>
+      </div>
+    </section>
+
+    <!-- Vaš osmeh -->
+    <section class="your-smile">
+      <div class="your-smile-holder container">
+        <h2>Vaš osmeh <span>zaslužuje najbolje</span></h2>
+        <p class="your-smile-p">Nastojimo da uz detaljnu analizu i dijagnostiku,
+          adekvatnu terapiju i redovnim kontrolama
+          pružimo maksimalan komfor pacijentima i najbolja rešenja
+          svih stomatoloških problema.</p>
+        <article class="card-holder">
+
+          <span id="card-btn" class="single-card active-card">
+            <svg class="single-card-svg" width="77" height="100" viewBox="0 0 77 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.11886 47.4542C2.48898 39.3177 -0.351792 26.8937 5.38237 15.0045C14.2379 -3.37289 34.1408 4.21128 38.5598 4.21128C42.9788 4.21128 62.8818 -3.36412 71.7373 15.0045C77.4715 26.8937 74.6219 39.3177 71.0008 47.4542H6.11886Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M25.3993 11.4535C19.7879 11.4535 15.9213 13.3298 13.2822 18.8097C11.6075 22.2906 10.9412 25.8415 10.8885 29.1908" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M66.6169 47.4542H10.5028V54.4685H66.6169V47.4542Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M28.0209 97.4308L21.0242 86.9094V54.4685H56.0955V86.9094L49.1075 97.4308H28.0209Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17.4207 70.5136L59.6027 63.0697" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17.4207 61.7458L56.0955 54.9244" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17.4207 79.2814L59.6027 71.8375" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17.4207 88.0405L59.6027 80.6054" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M26.4426 95.2213L53.7983 90.399" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+
+            <p>Implantologija</p>
+
+            <img src="./assets/images/your-smile/implantologija.webp" alt="Implantologija">
+          </span>
+
+          <span id="card-btn" class="single-card active-card">
+            <svg class="single-card-svg" width="79" height="113" viewBox="0 0 79 113" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M39 94.09C34.21 94.09 37.1 110.1 32.02 110.27C26.09 110.47 25.66 89.95 25.66 89.95C25.66 89.95 17.59 79.26 22.46 69.15C26.87 59.99 36.82 63.77 39 63.77C41.18 63.77 51.12 59.99 55.54 69.15C60.41 79.26 52.34 89.95 52.34 89.95C52.34 89.95 51.9 110.47 45.98 110.27C40.91 110.1 43.79 94.09 39 94.09Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M39.5 44.14C33.43 44.14 28.5 39.21 28.5 33.14C28.5 27.07 33.43 22.14 39.5 22.14C45.57 22.14 50.5 27.07 50.5 33.14C50.5 39.21 45.57 44.14 39.5 44.14Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M18 33.5C18 21.64 27.64 12 39.5 12C45.87 12 51.61 14.79 55.55 19.2" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M61 33.5C61 45.36 51.36 55 39.5 55C34.34 55 29.6 53.17 25.89 50.13" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M55.55 19.2C62 11 63 2 63 2" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M53.11 50.13C60.16 54.55 64.5 63.06 64.5 72C64.5 72.46 64.49 72.93 64.46 73.39C68.25 68.25 70.5 61.89 70.5 55C70.5 46.44 66.61 39.11 61 33.5C61 33.5 75 22 77 2" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M23.45 19.2C17 11 16 2 16 2" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M25.89 50.13C18.84 54.55 14.5 63.06 14.5 72C14.5 72.46 14.51 72.93 14.54 73.39C10.75 68.25 8.5 61.89 8.5 55C8.5 46.44 12.39 39.11 18 33.5C18 33.5 4 22 2 2" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+              
+            <p>Oralna Hirurgija</p>
+
+            <img src="./assets/images/your-smile/oralna-hirurgija.webp" alt="Oralna Hirurgija">
+          </span>
+
+          <span id="card-btn" class="single-card active-card">
+            <svg class="single-card-svg" width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M45.55 110C45.55 110 56.45 79.54 56.5 79.5L70.52 64.33C71.64 63.52 70.64 61.79 69.38 62.35L52.5 74.5C52.38 74.56 34 110 34 110" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M96.5 15C103.95 15 110 21.05 110 28.5V42C110 44.21 108.21 46 106 46H87C84.79 46 83 44.21 83 42V28.5C83 21.05 89.05 15 96.5 15Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15.5 15C22.95 15 29 21.05 29 28.5V42C29 44.21 27.21 46 25 46H6C3.79 46 2 44.21 2 42V28.5C2 21.05 8.05 15 15.5 15Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M42.5 15C49.95 15 56 21.05 56 28.5V45C56 47.21 54.21 49 52 49H33C30.79 49 29 47.21 29 45V28.5C29 21.05 35.05 15 42.5 15Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M74.5 45C67.04 45 61 51.04 61 58.5V68.38L69.38 62.35C70.64 61.79 71.64 63.52 70.52 64.33L61 74.63V75C61 77.21 62.79 79 65 79H79.01L71.71 76.19L80.37 72.85L83.71 64.19L87.05 72.85L87.99 73.21V58.5C87.99 51.04 81.95 45 74.49 45H74.5Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M72.96 45.04C76.41 44.66 79.62 45.59 82.19 47.38C82.69 46.71 82.99 45.9 82.99 45V28.5C82.99 21.04 76.95 15 69.49 15C62.03 15 55.99 21.04 55.99 28.5V45C55.99 47.21 57.78 49 59.99 49H64.96C67.04 46.86 69.8 45.39 72.95 45.04H72.96Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 31V10C2 5.58 5.58 2 10 2H102C106.42 2 110 5.58 110 10V31" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M83.72 64.19L87.06 72.84L95.72 76.19L87.06 79.53L83.72 88.19L80.38 79.53L71.72 76.19L80.38 72.84L83.72 64.19Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+
+            <p>Protetika</p>
+            
+            <img src="./assets/images/your-smile/protetika.webp" alt="Protetika">
+          </span>
+
+          <span id="card-btn" class="single-card active-card">
+            <svg class="single-card-svg" width="111" height="113" viewBox="0 0 111 113" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30.6536 12.1091C23.0336 11.6091 17.9336 13.4891 14.5836 20.4491C12.7036 24.3591 11.9936 28.3991 12.0236 32.3291" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M69.9836 96.1991C67.8136 104.239 64.5136 110.559 59.4936 110.389C47.8636 109.999 54.4836 73.2991 43.5036 73.2991C32.5236 73.2991 39.1436 109.999 27.5136 110.389C13.9236 110.849 12.9236 63.7891 12.9236 63.7891C12.9236 63.7891 -5.58641 39.2791 5.58359 16.1091C15.7036 -4.89086 38.5036 3.76914 43.4936 3.76914C48.4836 3.76914 71.2836 -4.89086 81.4136 16.1091C81.6736 16.6491 81.9136 17.1891 82.1436 17.7191" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M77.4436 88.1991C77.4436 88.1991 45.2936 68.6091 46.4436 24.1991C58.2036 30.1091 68.5936 30.3791 77.4236 24.1991C86.2536 30.3791 96.6436 30.1091 108.404 24.1991C109.554 68.6091 77.4036 88.1991 77.4036 88.1991H77.4336H77.4436Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M77.4236 78.2291C70.6236 72.5091 57.7736 58.8591 54.9636 35.7891C57.7836 36.4191 60.5336 36.7391 63.2036 36.7391C68.2336 36.7391 72.9936 35.6391 77.4236 33.4691C81.8536 35.6391 86.6236 36.7391 91.6436 36.7391C94.3136 36.7391 97.0636 36.4191 99.8836 35.7891C97.0736 58.8591 84.2236 72.5091 77.4236 78.2291Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+
+            <p>Opšta stomatologija</p>
+
+            <img src="./assets/images/your-smile/opšta-stomatologija.webp" alt="Opšta stomatologija">
+          </span>
+
+          <span id="card-btn" class="single-card active-card">
+            <svg class="single-card-svg" width="79" height="112" viewBox="0 0 79 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M55.0947 79.21C55.0947 79.21 55.0947 98.99 53.3247 103.93" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M23.0046 79.21C23.0046 79.21 23.0046 98.99 24.7746 103.93" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M41.6647 41.05C46.1647 40.59 53.6947 39.38 55.6747 39.2C60.5347 38.75 64.5747 42.92 63.9847 47.76C63.1847 54.32 55.9847 74.76 55.0947 79.21C51.0547 68.51 42.5647 67.33 39.0447 67.33C35.5247 67.33 27.0347 68.51 22.9947 79.21C22.1047 74.76 14.9047 54.32 14.1047 47.76C13.5147 42.91 17.5547 38.75 22.4147 39.2C23.2447 39.28 25.0547 39.53 27.1947 39.84" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M58.4847 13.93C63.9247 15.17 69.2847 18.43 72.8747 25.87C82.8447 46.55 66.3247 68.42 66.3247 68.42C66.3247 68.42 65.4347 110.41 53.3047 110C42.9247 109.65 48.8347 76.9 39.0347 76.9C29.2347 76.9 35.1447 109.65 24.7647 110C12.6447 110.41 11.7447 68.42 11.7447 68.42C11.7447 68.42 -4.7653 46.55 5.1947 25.87C14.2447 7.13 34.5347 14.86 39.0447 14.86C39.6347 14.86 40.4847 14.73 41.5447 14.54" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M59.5647 2C50.0347 11.95 23.0847 51.73 23.0847 79.07" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+
+            <p>Endodoncija</p>
+
+            <img src="./assets/images/your-smile/endodoncija.webp" alt="Endodoncija">
+          </span>
+
+          <span id="card-btn" class="single-card active-card">
+            <svg class="single-card-svg" width="130" height="79" viewBox="0 0 130 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M61.5555 31.7037H68.4444C69.7126 31.7037 70.7407 30.6756 70.7407 29.4074V24.8148C70.7407 23.5466 69.7126 22.5185 68.4444 22.5185H61.5555C60.2873 22.5185 59.2592 23.5466 59.2592 24.8148V29.4074C59.2592 30.6756 60.2873 31.7037 61.5555 31.7037Z" stroke="white" stroke-width="4.59259" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M99.4445 31.7037H106.333C107.602 31.7037 108.63 30.6756 108.63 29.4074V24.8148C108.63 23.5466 107.602 22.5185 106.333 22.5185H99.4445C98.1762 22.5185 97.1482 23.5466 97.1482 24.8148V29.4074C97.1482 30.6756 98.1762 31.7037 99.4445 31.7037Z" stroke="white" stroke-width="4.59259" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M55.8148 2.99998H75.3333C80.4082 2.99998 84.5185 7.11036 84.5185 12.1852V38.5926C84.5185 48.7307 76.2863 56.9629 66.1482 56.9629H65C54.8619 56.9629 46.6296 48.7307 46.6296 38.5926V12.1852C46.6296 7.11036 50.74 2.99998 55.8148 2.99998Z" stroke="white" stroke-width="4.59259" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17.9259 2.99998H37.4444C42.5192 2.99998 46.6296 7.11036 46.6296 12.1852V38.5926C46.6296 48.7307 38.3974 56.9629 28.2592 56.9629H27.1111C16.9729 56.9629 8.74072 48.7307 8.74072 38.5926V12.1852C8.74072 7.11036 12.8511 2.99998 17.9259 2.99998Z" stroke="white" stroke-width="4.59259" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M93.7037 2.99998H113.222C118.297 2.99998 122.407 7.11036 122.407 12.1852V38.5926C122.407 48.7307 114.175 56.9629 104.037 56.9629H102.889C92.7508 56.9629 84.5186 48.7307 84.5186 38.5926V12.1852C84.5186 7.11036 88.6289 2.99998 93.7037 2.99998Z" stroke="white" stroke-width="4.59259" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M127 27.1111H108.63" stroke="white" stroke-width="4.59259" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M97.1481 27.1111H70.7407" stroke="white" stroke-width="4.59259" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M30.5555 22.5185H23.6667C22.3984 22.5185 21.3704 23.5466 21.3704 24.8148V29.4074C21.3704 30.6756 22.3984 31.7037 23.6667 31.7037H30.5555C31.8238 31.7037 32.8518 30.6756 32.8518 29.4074V24.8148C32.8518 23.5466 31.8238 22.5185 30.5555 22.5185Z" stroke="white" stroke-width="4.59259" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 27.1111H21.3704" stroke="white" stroke-width="4.59259" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M32.8518 27.1111H59.2592" stroke="white" stroke-width="4.59259" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M7.59259 42.037H6.44444C4.53852 42.037 3 43.5755 3 45.4815V71.8889C3 74.4263 5.05519 76.4815 7.59259 76.4815H122.407C124.945 76.4815 127 74.4263 127 71.8889V45.4815C127 43.5755 125.461 42.037 123.556 42.037H122.407" stroke="white" stroke-width="4.59259" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+
+            <p>Ortodoncija</p>
+
+            <img src="./assets/images/your-smile/ortodoncija.webp" alt="Ortodoncija">          
+          </span>
+
+          <span id="card-btn" class="single-card">
+            <svg class="single-card-svg" width="130" height="54" viewBox="0 0 130 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_82_4129)">
+              <path d="M2.32129 35.2175V11.7392C2.32129 6.55051 6.47665 2.3479 11.607 2.3479H118.393C123.523 2.3479 127.678 6.55051 127.678 11.7392V35.2175" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M112.009 17.6086C120.656 17.6086 127.679 24.7108 127.679 33.4565V46.9565C127.679 49.5508 125.601 51.6521 123.036 51.6521H100.982C98.417 51.6521 96.3394 49.5508 96.3394 46.9565V33.4565C96.3394 24.7108 103.362 17.6086 112.009 17.6086Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17.9909 17.6086C26.6383 17.6086 33.6606 24.7108 33.6606 33.4565V46.9565C33.6606 49.5508 31.5829 51.6521 29.0177 51.6521H6.96415C4.39897 51.6521 2.32129 49.5508 2.32129 46.9565V33.4565C2.32129 24.7108 9.34361 17.6086 17.9909 17.6086Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M49.3303 17.6086C57.9776 17.6086 64.9999 24.7108 64.9999 33.4565V46.9565C64.9999 49.5508 62.9223 51.6521 60.3571 51.6521H38.3035C35.7383 51.6521 33.6606 49.5508 33.6606 46.9565V33.4565C33.6606 24.7108 40.683 17.6086 49.3303 17.6086Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M80.6696 17.6086C89.317 17.6086 96.3393 24.7108 96.3393 33.4565V46.9565C96.3393 49.5508 94.2616 51.6521 91.6964 51.6521H69.6429C67.0777 51.6521 65 49.5508 65 46.9565V33.4565C65 24.7108 72.0223 17.6086 80.6696 17.6086Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_82_4129">
+              <rect width="130" height="54" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>
+
+            <p>Paradontologija</p>
+
+            <img src="./assets/images/your-smile/paradontologija.webp" alt="Paradontologija">          
+          </span>
+
+          <span id="card-btn" class="single-card">
+            <svg class="single-card-svg" width="96" height="112" viewBox="0 0 96 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_82_4107)">
+              <path d="M47.85 85.2399C61.6 85.2399 57.36 110 68.99 110C97 110 98.46 22.9299 87.99 8.8899C77.52 -5.1501 57.24 5.7899 47.99 5.7899C38.74 5.7899 17.99 -4.5301 7.99004 8.8899C-2.47996 22.9299 -1.01996 110 26.99 110C38.62 110 34.38 85.2399 48.13 85.2399H47.85Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M23.9902 39.47C23.9902 39.47 28.0202 36.47 32.9902 36.47C37.9602 36.47 41.9902 39.47 41.9902 39.47" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M71.9902 39.47C71.9902 39.47 67.9602 36.47 62.9902 36.47C58.0202 36.47 53.9902 39.47 53.9902 39.47" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M35.9902 60.47C35.9902 60.47 41.3602 64.47 47.9902 64.47C54.6202 64.47 59.9902 60.47 59.9902 60.47" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_82_4107">
+              <rect width="95.97" height="112" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>
+
+            <p>Dečija stomatologija</p>
+
+            <img src="./assets/images/your-smile/dečija-stomatologija.webp" alt="Dečija stomatologija">          
+          </span>
+
+          <span id="card-btn" class="single-card">
+            <svg class="single-card-svg" width="148" height="76" viewBox="0 0 148 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_82_4151)">
+              <path d="M145.357 37.6966C145.357 37.6966 112.811 2.65211 88.9588 2.63892C84.3073 2.63892 79.4973 6.72919 74.0002 6.72919C68.5031 6.72919 63.6931 2.63892 59.0416 2.63892C35.1899 2.63892 2.64307 37.6966 2.64307 37.6966C2.64307 37.6966 34.6216 73.3611 74.0002 73.3611C113.379 73.3611 145.357 37.6966 145.357 37.6966Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M91.0599 40.4014L74.4099 33.9889L91.0599 27.5764L91.6677 26.0063C61.5259 23.341 31.8334 27.3389 2.64307 37.7097C20.0066 43.8847 37.5552 47.7771 55.2624 49.3736L53.9674 46.009L43.8849 42.1167L53.9674 38.2243L57.8656 28.1438L61.7638 38.2243L71.8595 42.1167L61.7638 46.009L60.3102 49.7695C71.6216 50.5084 82.9991 50.3104 94.4559 49.1361L91.0863 40.4014H91.0599Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M100.825 48.3839C115.559 46.418 130.399 42.8818 145.357 37.6964C131.443 32.8673 117.607 29.4631 103.864 27.4312L103.917 27.5499L120.567 33.9624L103.917 40.3749L100.825 48.3575V48.3839Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M97.495 10.9382L103.917 27.5632L120.567 33.9757L103.917 40.4014L97.495 57.0264L91.0597 40.4014L74.4097 33.9757L91.0597 27.5632L97.495 10.9382Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M57.8655 28.157L61.7505 38.2243L71.8462 42.1167L61.7505 45.9959L57.8655 56.0764L53.9673 45.9959L43.8716 42.1167L53.9673 38.2243L57.8655 28.157Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_82_4151">
+              <rect width="148" height="76" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>
+              
+            <p>Izbeljivanje zuba</p>
+
+            <img src="./assets/images/your-smile/izbeljivanje-zuba.webp" alt="Izbeljivanje zuba">     
+          </span>
+        </article>
+
+        <button class="your-smile-btn">Vidi više</button>
+      </div>
+    </section>
+
   </body>
 </html>

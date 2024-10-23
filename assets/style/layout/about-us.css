@@ -1,0 +1,123 @@
+.about-section {
+  background: #F2F2F2E8;
+  .about-holder {
+    padding: 85px 0px 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* About Content */
+    .about-content {
+      flex: 0 0 48%;
+      max-width: 548px;
+      h2 {
+        margin-bottom: 25px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 52.8px;
+        text-align: left;
+        color: #07BCB3;        
+      }
+      p {
+        margin: 22px 0px 22px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        span {
+          font-weight: 700;
+        }
+      }
+      .gallery-open {
+        position: relative;
+        margin-top: 50px;
+        padding: 16px 20px;
+        border-radius: 8px;
+        border: none;
+        background-color: #F2F2F2E8;
+        color: #07BCB3;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+        box-shadow: 4px 4px 10.2px 0px #91cffc79;  
+        transition: 0.3s ease;
+        
+        &:hover {
+          cursor: pointer;
+          background-color: #07BCB3;
+          color: #FFFFFF;
+          box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.2);
+          transition: 0.3s ease
+        }
+        
+        &::after {
+          border-radius: 8px;
+          display: block;
+          content: '';
+          position: absolute;
+          top: -2px; 
+          left: -2px; 
+          background-color: linear-gradient(0deg, #FFFFFF 0%, #61D4CD 100%);
+          width: calc(100% + 4px); 
+          height: calc(100% + 4px);
+          z-index: -1; 
+          transition: 0.3s ease;
+        }
+    }
+
+      /* Gallery Modal */
+      .gallery-dialog {
+        .gallery-dialog-header {
+          .gallery-logo {
+
+          }
+          .gallery-close-btn {
+
+          }
+        }
+        .gallery-items {
+          img {
+
+          }
+        }
+        .gallery-see-more {
+          .gsm-btn {
+
+          }
+          .gsm-svg {
+
+          }
+        }
+      }
+    }
+
+    /* About Image */
+    .about-image {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 25px;
+      .img-holder {
+        overflow: hidden;
+        .female-doc {
+
+        }
+        .male-doc {
+  
+        }
+        img {
+          transition: .3s ease;
+        }
+        img:hover {
+          transition: .3s ease;
+          transform: scale(1.1);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
