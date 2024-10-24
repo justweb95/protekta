@@ -1,28 +1,29 @@
+/* Varibales */
 @import './layout/variables.css';
-
 /* Sections */
 @import './layout/header.css';
 @import './layout/hero.css';
 @import './layout/about-us.css';
 @import './layout/your-smile.css';
+@import './layout/blog.css';
 
 
-
-
-
-
-
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
+/* Fonts */
 @font-face {
   font-family: 'Montserrat';
   src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
   font-style: normal;
+}
+
+
+
+
+
+/* Global */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .container {
