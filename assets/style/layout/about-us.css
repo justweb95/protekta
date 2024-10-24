@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    gap: 25px;
     /* About Content */
     .about-content {
       flex: 0 0 48%;
@@ -17,7 +17,7 @@
         font-weight: 700;
         line-height: 52.8px;
         text-align: left;
-        color: #07BCB3;        
+        color: var(--mint-color);
       }
       p {
         margin: 22px 0px 22px;
@@ -35,9 +35,9 @@
         margin-top: 50px;
         padding: 16px 20px;
         border-radius: 8px;
-        border: none;
+        border: 1px solid var(--mint-color-btn);
         background-color: #F2F2F2E8;
-        color: #07BCB3;
+        color: var(--mint-color-btn);
         font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         font-weight: 500;
@@ -48,26 +48,12 @@
         
         &:hover {
           cursor: pointer;
-          background-color: #07BCB3;
+          background-color: var(--mint-color-btn);
           color: #FFFFFF;
           box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.2);
           transition: 0.3s ease
         }
-        
-        &::after {
-          border-radius: 8px;
-          display: block;
-          content: '';
-          position: absolute;
-          top: -2px; 
-          left: -2px; 
-          background-color: linear-gradient(0deg, #FFFFFF 0%, #61D4CD 100%);
-          width: calc(100% + 4px); 
-          height: calc(100% + 4px);
-          z-index: -1; 
-          transition: 0.3s ease;
-        }
-    }
+      }
 
       /* Gallery Modal */
       .gallery-dialog {

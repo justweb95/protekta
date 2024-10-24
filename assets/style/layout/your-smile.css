@@ -8,7 +8,7 @@
       font-weight: 700;
       line-height: 53px;
       text-align: center; 
-      color: #07BCB3;
+      color: var(--mint-color);
       span {
         color: #4E4E4E;
       }
@@ -80,36 +80,22 @@
       margin: 72px auto 0px;
       padding: 16px 20px;
       border-radius: 8px;
-      border: none;
+      border: 1px solid var(--mint-color-btn);
       background-color: #ffffffe8;
       font-family: 'Montserrat', sans-serif;
       font-size: 24px;
       font-weight: 500;
       line-height: 20px;
       text-align: center;
-      color: #07BCB3;
+      color: var(--mint-color-btn);
       box-shadow: 4px 4px 10.2px 0px #91cffc79;  
       transition: 0.3s ease;
       &:hover {
         cursor: pointer;
-        background-color: #07BCB3;
+        background-color: var(--mint-color-btn);;
         color: #FFFFFF;
         box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.2);
         transition: 0.3s ease
-      }
-      
-      &::after {
-        border-radius: 8px;
-        display: block;
-        content: '';
-        position: absolute;
-        top: -2px; 
-        left: -2px; 
-        /* background-color: rgba(255, 0, 0, 0.5); */
-        width: calc(100% + 4px); 
-        height: calc(100% + 4px);
-        z-index: -1; 
-        transition: 0.3s ease;
       }
     }
   }
