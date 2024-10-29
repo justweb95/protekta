@@ -1,6 +1,6 @@
 import {
     
-} from './partials/gallery.js'
+} from './partials/gallery.js';
 
 
 

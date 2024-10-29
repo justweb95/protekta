@@ -49,7 +49,12 @@ footer {
       li {
         a {
           svg {
-
+            transition: .3s ease;
+            &:hover {
+              transition: .3s ease;
+              cursor: pointer;
+              scale: 1.1;
+            }
           }
         }
       }

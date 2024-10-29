@@ -18,6 +18,13 @@
         line-height: 52.8px;
         text-align: left;
         color: var(--mint-color);
+
+        opacity: 0;
+        transform: translateX(-50px);
+        animation-name: fadeIn; 
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-timeline: view(400px 50px); 
       }
       p {
         margin: 22px 0px 22px;
@@ -26,6 +33,12 @@
         font-weight: 400;
         line-height: 22px;
         text-align: left;
+        opacity: 0;
+        transform: translateX(-50px);
+        animation-name: fadeIn; 
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-timeline: view(400px 50px); 
         span {
           font-weight: 700;
         }
@@ -45,6 +58,13 @@
         text-align: center;
         box-shadow: 4px 4px 10.2px 0px #91cffc79;  
         transition: 0.3s ease;
+
+        opacity: 0;
+        transform: translateX(-50px);
+        animation-name: fadeIn; 
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-timeline: view(400px 50px); 
         
         &:hover {
           cursor: pointer;
@@ -87,6 +107,15 @@
       justify-content: flex-end;
       align-items: center;
       gap: 25px;
+
+      opacity: 0;
+      transform: translateX(50px);
+
+      animation-name: fadeInImg; 
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-timeline: view(400px 50px); 
+      
       .img-holder {
         overflow: hidden;
         .female-doc {
@@ -105,5 +134,31 @@
         }
       }
     }
+  }
+}
+
+
+/* Define keyframes for the animation */
+@keyframes fadeIn {
+  0% {
+      opacity: 0; /* Start hidden */
+      transform: translateX(-50px); /* Start slightly below */
+  }
+  100% {
+      opacity: 1; /* Fully visible */
+      transform: translateX(0); /* Move to original position */
+  }
+}
+
+
+/* Define keyframes for the animation */
+@keyframes fadeInImg {
+  0% {
+      opacity: 0; /* Start hidden */
+      transform: translateX(50px); /* Start slightly below */
+  }
+  100% {
+      opacity: 1; /* Fully visible */
+      transform: translateX(0); /* Move to original position */
   }
 }

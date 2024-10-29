@@ -415,7 +415,8 @@
         </article>
         <article class="contact-form">
           <h3 class="form-heading">Online konsultacije</h3>
-          <form>
+
+          <form id="contact-form">
             <span class="full-name">
               <label class="target" for="name">Ime i prezime</label>
               <input id="name" type="text">
@@ -435,7 +436,14 @@
               <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Opišite problem..."></textarea>
             </span>
 
-            <button class="form-submit">Pošalji</button>
+            <span class="submit-loader">
+              <button id="button" class="form-submit">Pošalji</button>
+              <img id="loader" class="loading-gif" src="./assets/images/loading.gif" loading="lazy" id="loader" alt="Circular Loader">
+            </span>            
+
+            <span class="email-response">
+            
+            </span>
           </form>
         </article>
       </div>
@@ -495,13 +503,13 @@
             </a>
           </li>
           <li>
-            <li>
+            <a>
               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M16.757 31.4873C8.64543 31.4873 2.07422 24.9099 2.07422 16.8046C2.07422 8.69304 8.65164 2.12183 16.757 2.12183C24.8685 2.12183 31.4397 8.69925 31.4397 16.8046C31.4397 24.9161 24.8623 31.4873 16.757 31.4873Z" fill="white"/>
                 <path d="M16.7572 33.5182C7.54011 33.5182 0.043457 26.0153 0.043457 16.7982C0.043457 7.58112 7.54011 0.0844727 16.7572 0.0844727C25.9743 0.0844727 33.4709 7.58112 33.4709 16.7982C33.4709 26.0153 25.9743 33.5119 16.7572 33.5119V33.5182ZM16.7572 0.395022C7.7078 0.395022 0.347795 7.75503 0.347795 16.8044C0.347795 25.8538 7.7078 33.2138 16.7572 33.2138C25.8066 33.2138 33.1666 25.8538 33.1666 16.8044C33.1666 7.75503 25.8066 0.395022 16.7572 0.395022Z" fill="white"/>
                 <path d="M14.5213 25.6737H18.0988V16.7237H20.5956L20.8627 13.7238H18.105V12.0157C18.105 11.3077 18.2479 11.0282 18.9311 11.0282H20.8627V7.9165H18.3845C15.7262 7.9165 14.5275 9.09038 14.5275 11.3325V13.7238H12.6704V16.7609H14.5275V25.6737H14.5213Z" fill="#71DECA"/>
               </svg>                
-            </li>
+            </a>
           </li>
           <li>
             <a href="">
@@ -532,5 +540,6 @@
     
     <!-- Scripts -->
     <script type="module" src="./assets/script/main.js"></script>
+    <script src="./assets/script/form-submit.js"></script>
   </body>
 </html>
