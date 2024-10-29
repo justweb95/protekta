@@ -9,6 +9,14 @@
       line-height: 53px;
       text-align: center; 
       color: var(--mint-color);
+      
+      opacity: 0;
+      transform: translateX(-50px);
+      animation-name: fadeInRightLeft; 
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-timeline: view(400px 50px); 
+
       span {
         color: #4E4E4E;
       }
@@ -21,6 +29,13 @@
       text-align: center;
       max-width: 817px;
       margin: 23px auto 50px;
+
+      opacity: 0;
+      transform: translateX(-50px);
+      animation-name: fadeInRightLeft; 
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-timeline: view(400px 50px); 
     }
     .card-holder {
       display: flex;
@@ -71,6 +86,30 @@
             filter: blur(0px);
             z-index: 1;
           }
+        }
+        &:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3) {
+          opacity: 0;
+          transform: translateX(-50px);
+          animation-name: fadeInRightLeft; 
+          animation-duration: 1s;
+          animation-fill-mode: forwards;
+          animation-timeline: view(400px 50px); 
+        }
+        &:nth-of-type(4), &:nth-of-type(5), &:nth-of-type(6) {
+          opacity: 0;
+          transform: translateX(-50px);
+          animation-name: fadeInLeftRight; 
+          animation-duration: 1s;
+          animation-fill-mode: forwards;
+          animation-timeline: view(400px 50px); 
+        }
+        &:nth-of-type(7), &:nth-of-type(8), &:nth-of-type(9) {
+          opacity: 0;
+          transform: translateX(-50px);
+          animation-name: fadeInRightLeft; 
+          animation-duration: 1s;
+          animation-fill-mode: forwards;
+          animation-timeline: view(400px 50px); 
         }
       } 
     }

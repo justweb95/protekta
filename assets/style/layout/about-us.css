@@ -21,7 +21,7 @@
 
         opacity: 0;
         transform: translateX(-50px);
-        animation-name: fadeIn; 
+        animation-name: fadeInRightLeft; 
         animation-duration: 1s;
         animation-fill-mode: forwards;
         animation-timeline: view(400px 50px); 
@@ -35,7 +35,7 @@
         text-align: left;
         opacity: 0;
         transform: translateX(-50px);
-        animation-name: fadeIn; 
+        animation-name: fadeInRightLeft; 
         animation-duration: 1s;
         animation-fill-mode: forwards;
         animation-timeline: view(400px 50px); 
@@ -61,10 +61,10 @@
 
         opacity: 0;
         transform: translateX(-50px);
-        animation-name: fadeIn; 
+        animation-name: fadeInRightLeft; 
         animation-duration: 1s;
         animation-fill-mode: forwards;
-        animation-timeline: view(400px 50px); 
+        animation-timeline: view(600px 50px); 
         
         &:hover {
           cursor: pointer;
@@ -111,7 +111,7 @@
       opacity: 0;
       transform: translateX(50px);
 
-      animation-name: fadeInImg; 
+      animation-name: fadeInLeftRight; 
       animation-duration: 1s;
       animation-fill-mode: forwards;
       animation-timeline: view(400px 50px); 
@@ -134,31 +134,5 @@
         }
       }
     }
-  }
-}
-
-
-/* Define keyframes for the animation */
-@keyframes fadeIn {
-  0% {
-      opacity: 0; /* Start hidden */
-      transform: translateX(-50px); /* Start slightly below */
-  }
-  100% {
-      opacity: 1; /* Fully visible */
-      transform: translateX(0); /* Move to original position */
-  }
-}
-
-
-/* Define keyframes for the animation */
-@keyframes fadeInImg {
-  0% {
-      opacity: 0; /* Start hidden */
-      transform: translateX(50px); /* Start slightly below */
-  }
-  100% {
-      opacity: 1; /* Fully visible */
-      transform: translateX(0); /* Move to original position */
   }
 }

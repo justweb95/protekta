@@ -37,3 +37,29 @@
 .active-link {
   font-weight: 700 !important;
 }
+
+
+/* Define keyframes for the animation */
+@keyframes fadeInRightLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+
+/* Define keyframes for the animation */
+@keyframes fadeInLeftRight {
+  0% {
+      opacity: 0;
+      transform: translateX(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
