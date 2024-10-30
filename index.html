@@ -23,10 +23,62 @@
         <ul class="nav-list">
           <li class="nav-link"><a class="link active-link" href="#o-nama">O nama</a></li>
           <li class="nav-link"><a class="link" href="#usluge">Usluge</a></li>
-          <li class="nav-link"><a class="link" href="#blog">blog</a></li>
+          <li class="nav-link"><a class="link" href="#blog">Blog</a></li>
           <li class="nav-link"><a class="link" href="#kontakt">Kontakt</a></li>
-          <li class="nav-link"><a class="link big-white" href="#zakazivanje">Online zakazivanje</a></li>
+          <li class="nav-link"><a class="link big-white" href="#kontakt">Online zakazivanje</a></li>
         </ul>
+
+
+        <svg class="burger-menu-open" width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.75 19.5H29.25V16.3333H0.75V19.5ZM0.75 11.5833H29.25V8.41667H0.75V11.5833ZM0.75 0.5V3.66667H29.25V0.5H0.75Z" fill="white"/>
+        </svg>
+          
+
+        <div id="burger-menu" class="burger-menu">
+          <span class="burger-menu-header">
+            <img src="./assets/images/mobile-logo.svg" alt="Protekta Mobile">
+            <svg class="burger-menu-close" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_33_176)">
+              <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_33_176">
+              <rect width="24" height="24" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>              
+          </span>
+          <ul class="burger-nav">
+            <li class="burger-nav-link"><a class="link" href="#o-nama">O nama</a></li>
+            <li class="burger-nav-link"><a class="link" href="#usluge">Usluge</a></li>
+            <li class="burger-nav-link"><a class="link" href="#blog">Blog</a></li>
+            <li class="burger-nav-link"><a class="link" href="#kontakt">Kontakt</a></li>
+          </ul>
+          <span class="burger-cta">
+            <a class="cta-tel" href="tel:+">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_i_141_42)">
+                <path d="M16.23 12.26L13.69 11.97C13.08 11.9 12.48 12.11 12.05 12.54L10.21 14.38C7.38004 12.94 5.06004 10.63 3.62004 7.79001L5.47004 5.94001C5.90004 5.51001 6.11004 4.91001 6.04004 4.30001L5.75004 1.78001C5.63004 0.77001 4.78004 0.0100098 3.76004 0.0100098H2.03004C0.900041 0.0100098 -0.0399593 0.95001 0.0300407 2.08001C0.560041 10.62 7.39004 17.44 15.92 17.97C17.05 18.04 17.99 17.1 17.99 15.97V14.24C18 13.23 17.24 12.38 16.23 12.26Z" fill="#74D2B0"/>
+                </g>
+                <defs>
+                <filter id="filter0_i_141_42" x="0.0263672" y="0.0100098" width="17.9639" height="18.9636" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dy="1"/>
+                <feGaussianBlur stdDeviation="0.5"/>
+                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_141_42"/>
+                </filter>
+                </defs>
+              </svg>
+              Poziv
+            </a>
+            <a class="link" href="#kontakt">Online Konsultacije</a>
+          </span>
+        </div>
+          
       </div>
     </header>
 
@@ -43,7 +95,7 @@
     </section>
 
     <!-- O Nama -->
-    <section class="about-section">
+    <section id="o-nama" class="about-section">
       <div class="about-holder container">
         <article class="about-content">
           <h2>O nama</h2>
@@ -97,7 +149,7 @@
     </section>
 
     <!-- Vaš osmeh -->
-    <section class="your-smile">
+    <section id="usluge" class="your-smile">
       <div class="your-smile-holder container">
         <h2>Vaš osmeh <span>zaslužuje najbolje</span></h2>
         <p class="your-smile-p">Nastojimo da uz detaljnu analizu i dijagnostiku,
@@ -273,7 +325,7 @@
     </section>
 
     <!-- Blog -->
-    <section class="blog">
+    <section id="blog" class="blog">
       <!-- slider-item-nogap -->
       <div class="blog-holder container swiffy-slider slider-nav-visible slider-item-show3 slider-item-show2-sm slider-indicators-outside">
         <h2>Korisne informacije</h2>
@@ -362,7 +414,7 @@
     </section>
 
     <!-- Contact Us -->
-    <section class="contact">
+    <section id="kontakt" class="contact">
       <div class="contact-holder container">
         <h2 class="contact-us-header">Online konsultacije</h2>
         <article class="contact-content">

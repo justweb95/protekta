@@ -26,17 +26,27 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .container {
   width: 80%;
   max-width: 1150px;
   margin: 0px auto;
+  @media (max-width: 550px) {
+    width: 93%;
+  }
 }
 
 .active-link {
   font-weight: 700 !important;
 }
+
+.burger-menu-active {
+  display: flex !important;
+}
+
+
 
 
 /* Define keyframes for the animation */
@@ -61,5 +71,15 @@
   100% {
       opacity: 1;
       transform: translateX(0);
+  }
+}
+
+/* Define keyframes for the animation */
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
   }
 }
