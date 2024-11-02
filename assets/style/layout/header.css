@@ -83,6 +83,7 @@
             flex: 0 0 100%;
             border-bottom: 1px solid #0000000D;
             .link {
+              width: 100%;
               display: inline-block;
               text-decoration: none;
               padding: 24px 32px;
@@ -112,6 +113,7 @@
             text-align: left;
             color: #74D2B0;
             svg {
+              pointer-events: none;
               vertical-align: middle;
               margin-right: 8px;
               margin-bottom: 2px;
