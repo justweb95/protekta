@@ -103,13 +103,15 @@
 
     /* About Image */
     .about-image {
+      max-width: 100%;
+
       display: flex;
       justify-content: flex-end;
       align-items: center;
       gap: 25px;
 
       opacity: 0;
-      transform: translateX(50px);
+      /* transform: translateX(50px); */
 
       animation-name: fadeIn; 
       animation-duration: 1s;
@@ -118,20 +120,59 @@
       
       .img-holder {
         overflow: hidden;
-        .female-doc {
-
-        }
-        .male-doc {
-  
-        }
+        max-width: 250px;
         img {
           transition: .3s ease;
+          display: block;
+          max-width: 100%;
+          height: auto;
         }
         img:hover {
           transition: .3s ease;
           transform: scale(1.1);
           cursor: pointer;
         }
+      }
+    }
+  }
+  @media (max-width: 1280px) {
+    .about-holder {
+      flex-wrap: wrap;
+      justify-content: center;
+      .about-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      .about-image {
+        flex: 0 0 100%;
+        max-width: 100%;    
+        justify-content: center;    
+      }
+    }
+  }
+  @media (max-width: 550px) {
+    .about-holder {
+      padding: 40px 15px 70px;
+      .about-content {
+        h2 {
+          font-size: 30px;
+          line-height: 36px;
+          text-align: center;
+        }
+        p {
+          font-size: 18.46px;
+          line-height: 22.15px;
+          text-align: center;
+        }
+        .gallery-open {
+          margin: 35px auto 25px;
+          display: block;
+        }
+      }
+      .about-image {
+        flex: 0 0 100%;
+        max-width: 100%;    
+        justify-content: center;    
       }
     }
   }

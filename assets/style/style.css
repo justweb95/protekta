@@ -44,6 +44,9 @@
 
 .burger-menu-active {
   display: flex !important;
+  .burger-menu-holder {
+    animation: burgerMenu .5s ease forwards;
+  }
 }
 
 
@@ -81,5 +84,14 @@
   }
   100% {
       opacity: 1;
+  }
+}
+
+@keyframes burgerMenu {
+  0% {
+    top: -500px;
+  }
+  100% {
+    top: 0px;
   }
 }

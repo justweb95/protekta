@@ -93,4 +93,63 @@ footer {
       }
     }
   }
+  @media (max-width: 1024px) {
+    .footer-holder {
+      /* flex-direction: column; */
+      justify-content: space-between;
+      .logo-link {
+        width: 100%;
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        flex: 0 0 100%;
+        border-bottom: 1px solid #FFFFFF;
+        img {
+          margin: 0px auto;
+          display: block;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    .footer-holder {
+      position: relative;
+      .logo-link {
+        img {
+          max-width: 176px;
+        }
+      }
+      .working-hours {
+        flex: 0 0 100%;
+      }
+      .footer-contact {
+        flex: 0 0 100%;
+        margin-bottom: 16px;
+      }
+      .footer-social-icons {
+        position: absolute;
+        right: 0px;
+        top: 77px;
+      }
+      .footer-bottom {
+        flex-wrap: wrap;
+        gap: 7px;
+        p {
+          flex: 0 0 100%;
+          font-size: 13px;
+          line-height: 20px;
+          text-align: center;
+        }
+
+        a {
+          flex: 0 0 100%;
+          font-size: 13px;
+          line-height: 20px;
+          text-align: center;
+        }
+      }
+    }
+  }
 }

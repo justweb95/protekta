@@ -126,4 +126,41 @@
       }
     }
   }
+  @media (max-width: 1280px) {
+    .your-smile-holder {
+      .card-holder {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .single-card {
+          min-width: 310px;
+        }
+      }
+    }
+  }
+  @media (max-width: 550px) {
+    padding: 43px 15px;
+    .your-smile-holder {
+      h2 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;        
+      }
+      .your-smile-p {
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;        
+      }
+      .card-holder {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .single-card {
+          max-width: 100%;
+          min-width: 280px;
+          .single-card-svg {
+            top: 40%;
+          }
+        }
+      }
+    }
+  }
 }

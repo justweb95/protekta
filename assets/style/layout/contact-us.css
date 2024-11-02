@@ -1,5 +1,5 @@
 .contact {
-  padding: 58px;
+  padding: 58px 0px;
   .contact-holder {
     display: flex;
     align-items: stretch;
@@ -47,6 +47,9 @@
           text-decoration: none;
           text-align: left;
           color: var(--mint-color);
+          span {
+            font-weight: bold;
+          }
           &::after {
             transition: .3s ease;
             position: absolute;
@@ -227,6 +230,55 @@
           text-align: left;
           color: #FFF9FD;   
         }
+      }
+    }
+  }
+  @media (max-width: 1024px) {
+    .contact-holder {
+      gap: 55px;
+      .contact-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+        .our-social-media {
+          display: flex;
+          justify-content: space-evenly;
+          svg {
+            margin-right: 0px;
+          }
+        }
+      }
+      .contact-form {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+  
+  @media (max-width: 550px) {
+    padding: 50px 15px;
+    .contact-holder {
+      gap: 45px;
+      .contact-us-header {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+      }
+      .contact-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+        .our-social-media {
+          margin-top: 55px;
+          display: flex;
+          justify-content: space-evenly;
+          svg {
+            margin-right: 0px;
+          }
+        }
+      }
+      .contact-form {
+        flex: 0 0 100%;
+        max-width: 100%;
+
       }
     }
   }

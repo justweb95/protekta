@@ -43,7 +43,7 @@
         }
       }
     }
-    .burger-menu-active {
+    .burger-menu {
       justify-content: flex-start;
       align-content: flex-start;
       flex-wrap: wrap;
@@ -54,76 +54,83 @@
       width: 100svw;
       height: 100svh;
       z-index: 10;
-      .burger-menu-header {
-        height: fit-content;
-        padding: 13px 20px;
-        background: #74D2B0;
-        border-bottom: 1px solid #E1E1E1;
-        flex: 1 0 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      .burger-nav {
-        height: fit-content;
-        background: #FFFFFF;
-        flex: 1 0 100%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        list-style: none;
-        .burger-nav-link {
+
+      .burger-menu-holder {
+        position: relative;
+        width: 100%;
+        /* top: -500px; */
+        transition: .3s ease;
+        .burger-menu-header {
+          height: fit-content;
+          padding: 13px 20px;
+          background: #74D2B0;
+          border-bottom: 1px solid #E1E1E1;
+          flex: 1 0 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        .burger-nav {
+          height: fit-content;
+          background: #FFFFFF;
+          flex: 1 0 100%;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-between;
+          list-style: none;
+          .burger-nav-link {
+            flex: 0 0 100%;
+            border-bottom: 1px solid #0000000D;
+            .link {
+              display: inline-block;
+              text-decoration: none;
+              padding: 24px 32px;
+              font-family: 'Montserrat', sans-serif;
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 18.2px;
+              text-align: left;
+              color: #222222;
+            }
+          }
+        }
+        .burger-cta {
           flex: 0 0 100%;
-          border-bottom: 1px solid #0000000D;
-          .link {
-            display: inline-block;
+          background-color: #FFFFFF;
+          display: flex;
+          align-items: center;
+          .cta-tel {
             text-decoration: none;
+            display: inline-block;
+            flex: 0 0 40%;
             padding: 24px 32px;
             font-family: 'Montserrat', sans-serif;
             font-size: 18px;
             font-weight: 600;
             line-height: 18.2px;
             text-align: left;
-            color: #222222;
+            color: #74D2B0;
+            svg {
+              vertical-align: middle;
+              margin-right: 8px;
+              margin-bottom: 2px;
+            }
           }
-        }
-      }
-      .burger-cta {
-        flex: 0 0 100%;
-        background-color: #FFFFFF;
-        display: flex;
-        align-items: center;
-        .cta-tel {
-          text-decoration: none;
-          display: inline-block;
-          flex: 0 0 40%;
-          padding: 24px 32px;
-          font-family: 'Montserrat', sans-serif;
-          font-size: 18px;
-          font-weight: 600;
-          line-height: 18.2px;
-          text-align: left;
-          color: #74D2B0;
-          svg {
-            vertical-align: middle;
-            margin-right: 8px;
-            margin-bottom: 2px;
+          .link {
+            text-decoration: none;
+            display: inline-block;
+            flex: 1 0 50%;
+            padding: 24px 32px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 18.2px;
+            text-align: left;
+            color: #FFFFFF;
+            background: #74D2B0;
+            border: 5px solid #FFFFFFCC
           }
-        }
-        .link {
-          text-decoration: none;
-          display: inline-block;
-          flex: 1 0 50%;
-          padding: 24px 32px;
-          font-family: 'Montserrat', sans-serif;
-          font-size: 18px;
-          font-weight: 600;
-          line-height: 18.2px;
-          text-align: left;
-          color: #FFFFFF;
-          background: #74D2B0;
-          border: 5px solid #FFFFFFCC
         }
       }
     }
@@ -144,6 +151,19 @@
       .burger-menu-open {
         display: block;
       }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .header-holder {
+      .logo-link {
+        max-width: 176px;
+        img {
+          display: block;
+          max-width: 100%;
+          height: auto;
+        }
+      } 
     }
   }
 
