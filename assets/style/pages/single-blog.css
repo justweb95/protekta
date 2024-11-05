@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.singe-blog-hero {
+  padding: 75px 20px 65px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  img {
+    display: block;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  .hero-title {
+    margin: 100px 0px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 45.8px;
+    text-align: center;
+    color: #F5F5F5;
+  }
+  .hero-subtitle {
+    margin: 0px 0px 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 36.5px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .hero-list {
+    max-width: 740px;
+    margin: 0px auto 0px 27px;
+    .hero-list-item {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 23px;
+      font-weight: 500;
+      line-height: 36.5px;
+      text-align: left;
+      color: #FFFFFF;
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+  .hero-content {
+    max-width: 944px;
+    margin: 0px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 36.5px;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+  .single-blog-back-button {
+    position: absolute;
+    top: 55px;
+    right: 65px;
+    padding: 15px 16px 14px;
+    border-radius: 50%;
+    border: 7px solid #74D2B0;
+    box-shadow: 4px 4px 10.2px 0px #91CFFC;
+    svg {
+      vertical-align: middle;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  @media (max-width: 800px) {
+    .hero-holder {
+      img {
+        max-width: 217px;
+      }
+      .hero-title {
+        margin: 50px 0px 50px;
+        font-size: 35px;
+        line-height: 37.28px;
+      }
+      .hero-content {
+        font-size: 23px;
+        line-height: 36.5px;
+      }
+    }
+    .single-blog-back-button {
+      top: 21px;
+      right: 22px;
+      padding: 8px 9px;
+      svg {
+        width: 19px;
+        height: 18px;
+      }
+    }
+  }
+}
+
+/* Blog hero single */
+.teeth-with {
+  background-image: url('../../images/single-blog/teeth-whitening.webp');
+}
+
+.first-visit {
+  background-image: url('../../images/single-blog/first-visit.webp');
+}
+
+.fear-dentist {
+  background-image: url('../../images/single-blog/fear.webp');
+}
+
+.bleed {
+  background-image: url('../../images/single-blog/bleed.webp');
+}
+
+.dental-implants {
+  background-image: url('../../images/single-blog/implant.webp');
+}
+
+.dental-tourism {
+  background-image: url('../../images/single-blog/turisam.webp');
+}
+
+
+.single-blog-content {
+  padding: 100px 20px;
+  max-width: 726px;
+  margin: 0px auto;
+  .single-blog-holder {
+    .content-title {
+      margin-bottom: 42px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 48.58px;
+      text-align: left;
+      color: #74D2B0;
+      &:nth-of-type(2), &:nth-of-type(3), &:nth-of-type(4), &:nth-of-type(5) {
+        margin-top: 100px;
+      }
+    }
+    .content-text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 38.86px;
+      text-align: left;
+      color: #8C8C8C;
+      margin-bottom: 24px;
+      span {
+        font-weight: bold;
+        color: #74D2B0;        
+      }
+    }
+    .content-list {
+      .content-list-item {
+        margin: 22px 0px 22px 27px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 38.86px;
+        text-align: left;
+        color: #8C8C8C;
+      }      
+    }
+    .devider {
+      margin: 50px auto 60px;
+      display: block;
+      max-width: 100%;
+    }
+    .content-img {
+      margin: 50px auto 60px;
+      display: block;
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 800px) {
+    padding: 60px 20px 55px;
+    .single-blog-holder {
+      .content-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+        line-height: 44.1px;
+        text-align: center;
+        
+      }
+      .content-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        line-height: 24.98px;
+        text-align: center;
+      }
+      .content-list {
+        font-size: 23px;
+        line-height: 36.5px;
+        .content-list-item {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 18px;
+          line-height: 24.98px;
+        }
+      }
+    }
+  }
+}
+
+.single-blog-footer {
+  padding: 180px 0px;
+  background-position: center;
+  background-size: cover;
+  .footer-h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    color: #F0F0F0;
+  }
+  @media (max-width: 800px) {
+    padding: 205px 20px;
+    .footer-h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 35px;
+      text-align: center;
+    }
+  }
+}
+
+/* Footer image */
+.footer-teeth-with {
+  background-image: url('../../images/single-blog/teeth-footer.webp');
+}
+.footer-first-visit {
+  background-image: url('../../images/single-blog/first-visit-footer.webp');
+}
+.footer-implant {
+  background-image: url('../../images/single-blog/implant-footer.webp');
+}
+.footer-turisam {
+  background-image: url('../../images/single-blog/turisam-footer.webp');
+}
