@@ -111,12 +111,19 @@
             font-weight: 600;
             line-height: 18.2px;
             text-align: left;
-            color: #74D2B0;
+            color: #FFFFFF;
+            border: 5px solid #FFFFFFCC;
+            background: #74D2B0;
             svg {
               pointer-events: none;
               vertical-align: middle;
               margin-right: 8px;
               margin-bottom: 2px;
+              g {
+                path {
+                  fill: white;
+                }
+              }
             }
           }
           .link {
@@ -129,9 +136,8 @@
             font-weight: 600;
             line-height: 18.2px;
             text-align: left;
-            color: #FFFFFF;
-            background: #74D2B0;
-            border: 5px solid #FFFFFFCC
+            color: #74D2B0;
+            /* border: 5px solid #FFFFFFCC */
           }
         }
       }

@@ -133,6 +133,10 @@
         justify-content: space-evenly;
         .single-card {
           min-width: 310px;
+          opacity: 1 !important;
+        }
+        img {
+          filter: blur(0px) !important;
         }
       }
     }
@@ -157,6 +161,7 @@
           max-width: 100%;
           min-width: 280px;
           .single-card-svg {
+            max-width: 23%;
             top: 40%;
           }
         }
