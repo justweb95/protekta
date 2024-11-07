@@ -36,7 +36,7 @@
           line-height: 18.2px;
           text-align: left;
           background: var(--Color-Bg-White);
-          color: #24A3D9;
+          color: var(--mint-color);
           /* Greska i ne valja */
           border: 3px solid #b2ffe9;
           margin-left: -15px;

@@ -1,0 +1,199 @@
+.service-modal {
+  overflow-y: scroll; 
+  -webkit-overflow-scrolling: touch;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 1150px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  .close-modal-btn {
+    position: absolute;
+    top: 31px;
+    right: 38px;
+    z-index: 2;
+    background-color: transparent;
+    padding: 15px 16px 14px;
+    border-radius: 50%;
+    border: 7px solid #74D2B0;
+    box-shadow: 4px 4px 10.2px 0px #91CFFC;
+    vertical-align: middle;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .modal-hero {
+    padding: 30px 38px 65px;
+    /* background-image: url('../../images/pop-up/inpmplants.webp'); */
+    background-image: var(--modal-background-image);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .modal-hero-logo {
+      margin-right: auto;
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+    .modal-hero-icon {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin-top: -32px;
+      margin-bottom: 32px;
+    }
+    .modal-hero-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 39px;
+      font-weight: 700;
+      line-height: 46.8px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+  .modal-content {
+    padding: 70px 20px 65px;
+    .modal-content-title {
+      margin: 34px 0px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 38.86px;
+      text-align: center;
+      color: var( --mint-color);
+      &:first-of-type {
+        margin: 0px 0px 34px;
+      }
+    }
+    .modal-content-text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 38.86px;
+      text-align: center;
+      mark {
+        background-color: transparent;
+        font-weight: 600;
+        color: var(--mint-color);
+      }
+      span {
+        font-weight: 600;
+        font-style: italic;
+      }
+    }
+    ul {
+      text-align: center;
+      width: fit-content;
+      margin: 0px auto;
+      li {
+        width: fit-content;
+        margin: 0px auto;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 49px;
+        text-align: center;
+        color: var(--mint-color);
+      }
+    }
+    .back-to-form-btn {
+      margin: 0px auto;
+      display: block;
+      width: fit-content;
+      margin-top: 70px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15.16px;
+      font-weight: 700;
+      line-height: 18.2px;
+      text-align: left;
+      color: var(--mint-color);
+      border-radius: 8px;
+      border: 3px solid #07BCB333;
+      padding: 19px 56px;
+      text-decoration: none;
+      transition: .3s ease;
+      &:hover {
+        transition: .3s ease;
+        cursor: pointer;
+        color: white;
+        border: 3px solid var(--mint-color);
+        background-color: var(--mint-color);
+      }
+    }
+  }
+  @media (max-width: 1024px) {
+    .modal-hero {
+      .modal-hero-icon {
+        margin-top: 0px;
+      }
+    }
+  }
+
+  @media (max-width: 550px) {
+    .close-modal-btn {
+      top: 21px;
+      right: 22px;
+      padding: 8px 9px;
+      svg {
+        width: 19px;
+        height: 18px;
+      }
+    }
+    .modal-hero {
+      padding: 95px 20px 130px;
+      .modal-hero-logo {
+        display: block;
+        height: auto;
+        max-width: 95%;
+        margin: 0px auto;
+      }
+      .modal-hero-icon {
+        margin: 75px 0px 30px;
+      }
+      .modal-hero-title {
+        font-size: 35px;
+      }
+    }
+    .modal-content {
+      max-width: 95%;
+      margin: 0px auto;
+      .modal-content-title {
+        font-size: 18px;
+        line-height: 24.98px;
+      }
+      .modal-content-text {
+        font-size: 18px;
+        line-height: 24.98px;
+      }
+      .back-to-form-btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  &::backdrop {
+    background-color: #2e2e2ea9;
+  }
+  &::-webkit-scrollbar {
+    margin-right: -20px;
+    width: 4px; 
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #74D2B0;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}

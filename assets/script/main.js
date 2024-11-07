@@ -1,4 +1,7 @@
-import { showAll } from './partials/showAllServices.js';
+import { 
+    showAll,
+    handleOpenPopUp,
+    handleClosePopUp } from './partials/showAllServices.js';
 import { handleBurgerMenu } from './partials/burgerControl.js';
 
 // Burger Menu
@@ -40,4 +43,11 @@ const serviceBtn = document.querySelector('.your-smile-btn');
 serviceBtn.addEventListener('click', () => {
     showAll();
     serviceBtn.removeEventListener('click', showAll())
+})
+
+
+const allServiceCard = document.querySelectorAll('#service-card-btn')
+
+allServiceCard.forEach( (service_card) => {    
+    service_card.addEventListener('click', () => handleOpenPopUp(service_card));
 })
