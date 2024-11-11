@@ -175,7 +175,7 @@ const ModalData = [
         <div class="modal-hero">
             <img class="modal-hero-logo" src="./assets/images/header-logo.svg" alt="Protekta Logo">
             <img class="modal-hero-icon" src="./assets/images/pop-up/endodoncaija-icon.svg" alt="Endodoncija Icon">
-            <h2 class="modal-hero-title"Endodoncija</h2>
+            <h2 class="modal-hero-title"> Endodoncija</h2>
         </div>
         <!-- Modal Content -->
         <article class="modal-content">
