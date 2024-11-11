@@ -26,6 +26,7 @@
                     display: block;
                     height: 189px;
                     overflow: hidden;
+                    border-radius: 15px;
                     .blog-card-img {
                         object-fit: cover;
                         transition: .4s ease;
@@ -88,11 +89,13 @@
             }   
         }
         .slider-nav-prev {
+            filter: drop-shadow(0px 0px 0px transparent);
             &::after {
                 display: none;
             }
         }
         .slider-nav-next {
+            filter: drop-shadow(0px 0px 0px transparent);
             &::after {
                 display: none;
             }
@@ -119,7 +122,7 @@
             h2 {
                 font-size: 30px;
                 line-height: 36px;
-                text-align: center;
+                /* text-align: center; */
             }
             .blog-list-holder {
                 width: calc(100% - 60px);

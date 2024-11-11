@@ -133,13 +133,18 @@
 
 .single-blog-content {
   padding: 100px 20px;
-  max-width: 726px;
-  margin: 0px auto;
+  background-image: url('../../images/pop-up/about-and-popup.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   .single-blog-holder {
-    .content-title {
+    max-width: 726px;
+    margin: 0px auto;
+      .content-title {
       margin-bottom: 42px;
       font-family: 'Montserrat', sans-serif;
-      font-size: 35px;
+      font-size: 30px;
       font-weight: 700;
       line-height: 48.58px;
       text-align: left;
@@ -150,11 +155,11 @@
     }
     .content-text {
       font-family: 'Montserrat', sans-serif;
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 400;
       line-height: 38.86px;
       text-align: left;
-      color: #8C8C8C;
+      color: #4c4c4c;
       margin-bottom: 24px;
       span {
         font-weight: bold;
@@ -165,11 +170,11 @@
       .content-list-item {
         margin: 22px 0px 22px 27px;
         font-family: 'Montserrat', sans-serif;
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 400;
         line-height: 38.86px;
         text-align: left;
-        color: #8C8C8C;
+        color: #4c4c4c;
       }      
     }
     .devider {
@@ -188,23 +193,22 @@
     .single-blog-holder {
       .content-title {
         font-family: 'Montserrat', sans-serif;
-        font-size: 35px;
+        font-size: 28px;
         line-height: 44.1px;
-        text-align: center;
-        
+        text-align: left;
       }
       .content-text {
         font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 24.98px;
-        text-align: center;
+        text-align: left;
       }
       .content-list {
-        font-size: 23px;
+        font-size: 19px;
         line-height: 36.5px;
         .content-list-item {
           font-family: 'Montserrat', sans-serif;
-          font-size: 18px;
+          font-size: 16px;
           line-height: 24.98px;
         }
       }

@@ -24,14 +24,13 @@ function handleOpenPopUp(serviceID) {
     // Redirect To Form BTN 
     const redirectBtn = document.querySelector('.back-to-form-btn');
 
-
     serviceModal.showModal();
 
     closeModalBtn.addEventListener('click', () => handleClosePopUp(serviceModal));
     redirectBtn.addEventListener('click', () => handleClosePopUp(serviceModal));
 }
 
-function handleClosePopUp(serviceID) {
+function handleClosePopUp() {
     // Service Modal 
     const serviceModal = document.getElementById('service-modal');
     serviceModal.close();
@@ -65,7 +64,7 @@ const ModalData = [
             </p>
             <h3 class="modal-content-title">Ugradnja veštačke kosti i bio-membrane</h3>
             <h3 class="modal-content-title">Transplatacija grafta sa nepca</h3>
-            <a href="#kontakt" class="back-to-form-btn">Online zakazivanje</a>
+            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/inpmplants.webp`
     },
@@ -96,7 +95,7 @@ const ModalData = [
             <li>Sinus lift</li>
             <li>Terapija otvorenog maxilarnog sinusa.</li>
             </ul>
-            <a href="#kontakt" class="back-to-form-btn">Online zakazivanje</a>
+            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/hirurgija.webp`
     },
@@ -129,7 +128,7 @@ const ModalData = [
             Bredent BioHPP proteze.
           </p>
           <h3 class="modal-content-title">Proteze na implantima</h3>
-          <a href="#kontakt" class="back-to-form-btn">Online zakazivanje</a>
+        <a href="tel:+381603840740" class="back-to-form-btn">Zakaži</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/protetika.webp`
     },
@@ -160,7 +159,7 @@ const ModalData = [
             <li>Ukazivanje prve pomoći kod zubobolje</li>
             <li>Vađenje zuba</li>
             </ul>
-            <a href="#kontakt" class="back-to-form-btn">Online zakazivanje</a>
+            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/stomatologija.webp`
     },
@@ -184,7 +183,7 @@ const ModalData = [
             <li>Lečenje i obrada kanala korena zuba kod pulpita, <br> periodontita i gangrene zuba,</li>
             <li>Mašinska endodoncija.</li>
             </ul>
-            <a href="#kontakt" class="back-to-form-btn">Online zakazivanje</a>
+            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/endodonacija.webp`
     },
@@ -210,7 +209,7 @@ const ModalData = [
             <li>Izrada fiksnih ortodontskih proteza</li>
             <li>Folije i retainer za ispravljanje zuba.</li>
             </ul>
-            <a href="#kontakt" class="back-to-form-btn">Online zakazivanje</a>
+            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/ortodonacija.webp`
     },
@@ -235,7 +234,7 @@ const ModalData = [
             <li>Uklanjanje zubnog kamenca</li>
             <li>Obrada parodontalnih džepova</li>
             </ul>
-            <a href="#kontakt" class="back-to-form-btn">Online zakazivanje</a>
+            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/paradontologija.webp`
     },
@@ -262,7 +261,7 @@ const ModalData = [
             <li>Fluorizacija</li>
             <li>Uklanjanje mekih naslaga</li>
             </ul>
-            <a href="#kontakt" class="back-to-form-btn">Online zakazivanje</a>
+            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/decija.webp`
     },
@@ -289,6 +288,7 @@ const ModalData = [
                 Neophodno je <mark>24h pre i nakon</mark> intervencije izbegavati<br>
                 alkohol, pušenje, obojenu hranu i pića.<br>
             </p>
+            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/izbeljivanje.webp`
     }

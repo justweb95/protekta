@@ -9,7 +9,7 @@
       margin-bottom: 50px;
       flex: 1 0 100%;
       align-self: flex-end;
-      text-align: right;
+      text-align: left;
       font-family: 'Montserrat', sans-serif;
       font-size: 44.6px;
       font-weight: 700;
@@ -92,6 +92,7 @@
       }
     }
     .contact-form {
+      border-radius: 15px;
       flex: 0 0 50%;
       /* max-width: 583px; */
       background: linear-gradient(45.68deg, rgba(126, 126, 126, 0.3) -62.17%, #74D2B0 62.41%);
@@ -264,7 +265,8 @@
       .contact-us-header {
         font-size: 30px;
         line-height: 36px;
-        text-align: center;
+        margin-bottom: 0px;
+        /* text-align: center; */
       }
       .contact-us-header-mobile {
         display: block;
