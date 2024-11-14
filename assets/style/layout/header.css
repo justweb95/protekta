@@ -39,7 +39,7 @@
           color: var(--mint-color);
           /* Greska i ne valja */
           border: 3px solid #b2ffe9;
-          margin-left: -15px;
+          /* margin-left: -15px; */
         }
       }
     }
@@ -185,7 +185,7 @@
           height: auto;
         }
       } 
-
+      /*padding: 11px 15px;*/
     }
   }
 }

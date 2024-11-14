@@ -72,7 +72,7 @@
       font-weight: 700;
       line-height: 38.86px;
       text-align: center;
-      color: var( --mint-color);
+      /* color: var( --mint-color); */
       &:first-of-type {
         margin: 0px 0px 34px;
       }
@@ -86,7 +86,7 @@
       mark {
         background-color: transparent;
         font-weight: 600;
-        color: var(--mint-color);
+        /* color: var(--mint-color); */
       }
       span {
         font-weight: 600;
@@ -105,7 +105,7 @@
         font-weight: 700;
         line-height: 49px;
         text-align: center;
-        color: var(--mint-color);
+        /* color: var(--mint-color); */
       }
     }
     .back-to-form-btn {
@@ -153,7 +153,6 @@
     }
     .modal-hero {
       padding: 95px 20px 130px;
-      background-position: 70%;
       .modal-hero-logo {
         display: block;
         height: auto;
@@ -167,20 +166,29 @@
         font-size: 30px;
       }
     }
+    .ortodoncija {
+      background-position: 70%;
+      
+    }
     .modal-content {
       max-width: 100%;
       margin: 0px auto;
       .modal-content-title {
-        font-size: 19px;
+        font-size: 18px;
         line-height: 24.98px;
       }
       .modal-content-text {
-        font-size: 17px;
+        font-size: 18px;
         line-height: 24.98px;
       }
       .back-to-form-btn {
         width: 100%;
         text-align: center;
+      }
+      ul {
+        li {
+          font-size: 18px;
+        }
       }
     }
   }

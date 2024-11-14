@@ -148,20 +148,20 @@
         font-size: 30px;
         line-height: 36px;
         text-align: left;
-        /* text-align: center;         */
+        text-align: center;        
       }
       .your-smile-p {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 18px;
         text-align: left;
-        /* text-align: center;         */
+        text-align: center;        
       }
       .card-holder {
         flex-wrap: wrap;
         justify-content: space-evenly;
         .single-card {
           flex: 0 0 100%;
-          max-width: 100%;
+          max-width: 85%;
           min-width: unset;
           img {
             min-width: 100%;
