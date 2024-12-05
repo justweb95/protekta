@@ -67,8 +67,10 @@
   @media (max-width: 550px) {
     background-image: url('../../images/hero-img-mobile.webp');
     background-position: 65%;
+    height: calc(100svh - 70px);
     .hero-holder {
-      padding: 80px 15px;
+      height: 100%;
+      padding: 80px 15px 0px;
       .hero-content {
         text-align: center;
         h1 {
