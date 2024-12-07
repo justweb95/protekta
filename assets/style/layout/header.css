@@ -144,6 +144,9 @@
     }
   }
 
+  .srb-version, .en-version {
+    display: none;
+  }
   .burger-menu-open {
     display: none;
   }
@@ -158,6 +161,17 @@
       } 
       .burger-menu-open {
         display: block;
+      }
+      .srb-version, .en-version {
+        text-decoration: none;
+        display: block;
+        margin: 0px 15px 0px auto;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 18.2px;
+        text-align: left;
+        color: #ffffff;
       }
     }
   }

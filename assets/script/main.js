@@ -4,6 +4,11 @@ import {
     handleClosePopUp } from './partials/showAllServices.js';
 import { handleBurgerMenu } from './partials/burgerControl.js';
 
+import { 
+    showAllEN,
+    handleOpenPopUpEN,
+    handleClosePopUpEN } from './partials/showAllServicesEN.js';
+
 // Burger Menu
 const burgerMenuOpen = document.querySelector('.burger-menu-open');
 const burgerMenuClose = document.querySelector('.burger-menu-close');
@@ -45,9 +50,14 @@ serviceBtn.addEventListener('click', () => {
     serviceBtn.removeEventListener('click', showAll())
 })
 
-
 const allServiceCard = document.querySelectorAll('#service-card-btn')
 
 allServiceCard.forEach( (service_card) => {    
-    service_card.addEventListener('click', () => handleOpenPopUp(service_card));
+    service_card.addEventListener('click', (e) => {
+        if(service_card.classList.contains('en-version')) {
+            handleOpenPopUpEN(service_card)
+            return;
+        }
+        handleOpenPopUp(service_card)
+    });
 })
