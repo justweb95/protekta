@@ -1,0 +1,32 @@
+
+body {
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray; /* Set background color to light gray */
+}
+
+.container {
+  max-width: 800px; /* Maximum width of the container */
+  width: 90%; /* Width set to 90% of its parent */
+  margin: auto; /* Center the container horizontally */
+  overflow: hidden;
+  background: lightgray;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1, h2 {
+  text-align: center; /* Center headings */
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+p {
+  color: #666;
+  text-align: left;
+}
