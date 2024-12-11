@@ -67,13 +67,11 @@ const ModalData = [
         </div>
         <!-- Modal Content -->
         <article class="modal-content">
-            <h3 class="modal-content-title">Ugradnja implantata</h3>
-            <p class="modal-content-text">
-            Pojedinačnih, All-on-4, All-on-6 <br>
-            <span>(Doživotna garancija na implante)</span>
-            </p>
-            <h3 class="modal-content-title">Ugradnja veštačke kosti i bio-membrane</h3>
-            <h3 class="modal-content-title">Transplatacija grafta sa nepca</h3>
+            <ul class="modal-content-list">
+            <li>Ugradnja implantata: pojedinačnih, All-on-4, All-on-6 (doživotna garancija na implante!)</li>
+            <li>Ugradnja veštačke kosti i bio membrana,</li>
+            <li>Transplantacija grafta sa nepca</li>
+            </ul>
             <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/inpmplants.webp`
@@ -125,20 +123,21 @@ const ModalData = [
         </div>
         <!-- Modal Content -->
         <article class="modal-content">
-          <h3 class="modal-content-title">Krunice:</h3>
-          <p class="modal-content-text">
-            Metalokeramičke, bezmetalne <br>
-            <span>(E-max, Cirkonijum).</span>
-          </p>
-          <h3 class="modal-content-title">Zubne proteze:</h3>
-          <p class="modal-content-text">
-            Akrilatne totalne i parcijalne, <br>
-            ThermoSens (silikonske),<br>
-            vizil proteze (sa ili bez atečmenta), <br>
-            Bredent BioHPP proteze.
-          </p>
-          <h3 class="modal-content-title">Proteze na implantima</h3>
-        <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
+            <ul class="modal-content-list">
+            <li><h4>KRUNICE</h4></li>
+            <li>metalokeramičke</li>
+            <li>bezmetalne (Litijum-disilikatne, cirkonijum)</li>
+            <li>izrada privreminih kruna</li>
+
+            <li><h4>ZUBNE PROTEZE</h4></li>
+            <li>akrilatne (više vrsta),</li>
+            <li>vizil proteze (sa ili bez atečmena),</li>
+            <li>Bredent BioHPP proteze,</li>
+            <li>izrada proteza na implantima,</li>
+            <li>mogućnost ugradnje najkvalitetnijih zubnih garnitura
+u protezu (Candular, Vita sedmoslojni zubi)</li>
+            </ul>
+            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/protetika.webp`
     },
@@ -160,12 +159,10 @@ const ModalData = [
         <article class="modal-content">
             <ul class="modal-content-list">
             <li>Preventivni i dijagnostički pregledi</li>
-            <li>Popravka i plombiranje zuba nano-kompozitnim <br>
-             plombama nove generacije</li>
+            <li>Popravka i plombiranje zuba nano-kompozitnim plombama nove generacije</li>
             <li>Nadogradnja frakturiranog zuba sa ili bez kočića</li>
-            <li>Glas-jonomer plombe (kao privremeno ili trajno <br>
-             rešenje kod lečenja osetljivih zuba)</li>
-            <li>Zalivanje fisura mlečnih i stalnih zuba kod dece u <br> prevenciji karijesa</li>
+            <li>Glas-jonomer plombe (kao privremeno ili trajno rešenje kod lečenja osetljivih zuba)</li>
+            <li>Zalivanje fisura mlečnih i stalnih zuba kod dece u prevenciji karijesa,</li>
             <li>Ukazivanje prve pomoći kod zubobolje</li>
             <li>Vađenje zuba</li>
             </ul>
@@ -190,8 +187,9 @@ const ModalData = [
         <!-- Modal Content -->
         <article class="modal-content">
             <ul class="modal-content-list">
-            <li>Lečenje i obrada kanala korena zuba kod pulpita, <br> periodontita i gangrene zuba,</li>
-            <li>Mašinska endodoncija.</li>
+            <li>Lečenje i obrada kanala korena zuba kod pulpita, periodontita i gangrene zuba</li>
+            <li>Interseansna medikacija</li>
+            <li>Mašinska endodoncija</li>
             </ul>
             <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
@@ -217,7 +215,8 @@ const ModalData = [
             <li>Terapija nepravilnosti u položaju zuba kod dece i odraslih</li>
             <li>Izrada mobilnih zubnih aparata</li>
             <li>Izrada fiksnih ortodontskih proteza</li>
-            <li>Folije i retainer za ispravljanje zuba.</li>
+            <li>Izrada folija za ispravljanje zuba (Invisalign)</li>
+            <li>Izrada retainera nakon skidanja ortodontskog aparata</li>
             </ul>
             <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
@@ -240,9 +239,10 @@ const ModalData = [
         <!-- Modal Content -->
         <article class="modal-content">
             <ul class="modal-content-list">
-            <li>Ukljanjanje mekih naslaga (poliranje zuba)</li>
+            <li>Ukljanjanje mekih naslaga (poliranje zuba),</li>
             <li>Uklanjanje zubnog kamenca</li>
             <li>Obrada parodontalnih džepova</li>
+            <li>Drenaža akutnog parodontalnog apscesa</li>
             </ul>
             <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
@@ -267,9 +267,9 @@ const ModalData = [
             <ul class="modal-content-list">
             <li>Popravka mlečnog zuba</li>
             <li>Zalivanje fisura</li>
-            <li>Ekstrakcija mlečnog zuba</li>
             <li>Fluorizacija</li>
             <li>Uklanjanje mekih naslaga</li>
+            <li>Ekstrakcija mlečnog zuba</li>
             </ul>
             <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
