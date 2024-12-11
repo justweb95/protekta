@@ -213,7 +213,7 @@
       padding: 40px 15px 70px;
       .about-content {
         h2 {
-          display: none;
+          color: #4E4E4E;
           font-size: 30px;
           line-height: 36px;
           text-align: center;
@@ -222,6 +222,9 @@
           font-size: 18.46px;
           line-height: 22.15px;
           text-align: center;
+          span {
+            font-size: 19.46px;
+          }
         }
         .gallery-open {
           margin: 35px auto 25px;
@@ -231,7 +234,12 @@
       .about-image {
         flex: 0 0 100%;
         max-width: 100%;    
-        justify-content: center;    
+        justify-content: center; 
+        .img-holder {
+          .img-description {
+            color: black;
+          }
+        }   
       }
     }
   }

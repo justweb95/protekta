@@ -69,6 +69,7 @@ footer {
     }
     .footer-services {
       list-style: none;
+      margin-right: 120px;
       .footer-services-header {
         font-size: 20px;
         margin-bottom: 31px;
@@ -187,6 +188,9 @@ footer {
           height: auto;
         }
       }
+      .footer-services {
+        margin-right: 0px;
+      }
     }
   }
 
@@ -210,6 +214,7 @@ footer {
             margin-right: 16px;
           }
           .logo-link {
+            margin: 0px auto 45px;
             padding-bottom: 36px;
             margin-bottom: 45px;
             img {
@@ -227,9 +232,6 @@ footer {
       .working-hours {
         margin-top: 28px;
         flex: 0 0 100%;
-        li {
-          border-bottom: 1px solid transparent;
-        }
       }
       .footer-services {
         display: none;
@@ -241,7 +243,7 @@ footer {
       .footer-social-icons {
         position: absolute;
         right: 0px;
-        top: 201px;
+        top: 150px;
       }
       .footer-bottom {
         flex-wrap: wrap;

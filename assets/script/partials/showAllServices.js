@@ -1,12 +1,22 @@
+let currentIndex = 0; // Keep track of the current index
+
 function showAll() {
-    const allSerices = document.querySelectorAll('.single-card');
+    const allServices = document.querySelectorAll('.single-card');
     const showAllBtn = document.querySelector('.your-smile-btn');
 
-    allSerices.forEach((card) => {
-        card.style.display = 'flex';
-    })
+    // Show the next 3 cards
+    const cardsToShow = Math.min(3, allServices.length - currentIndex); // Calculate how many cards to show
+    for (let i = 0; i < cardsToShow; i++) {
+        if (currentIndex < allServices.length) {
+            allServices[currentIndex].style.display = 'flex'; // Show the card
+            currentIndex++; // Move to the next card
+        }
+    }
 
-    showAllBtn.style.display = 'none';
+    // Hide the button if all cards are shown
+    if (currentIndex >= allServices.length) {
+        showAllBtn.style.display = 'none';
+    }
 }
 
 

@@ -120,6 +120,7 @@
         .blog-holder {
             width: 90%;
             h2 {
+                color: #767676;
                 font-size: 30px;
                 line-height: 36px;
                 text-align: center;
@@ -140,9 +141,19 @@
             .slider-nav-next {
                 /* background: linear-gradient(90deg, rgba(7, 188, 179, 0) 0%, rgba(116, 210, 176, 0.6) 100%); */
                 right: -18px;
+                svg {
+                    path {
+                        fill: #767676;
+                    }
+                }
             }
             .slider-nav-prev {
                 left: -18px;
+                svg {
+                    path {
+                        fill: #767676;
+                    }
+                }
             }
         }
     }

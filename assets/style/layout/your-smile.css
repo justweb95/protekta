@@ -173,6 +173,9 @@
             font-size: 22px;
             bottom: 30px;
           }
+          &:nth-of-type(6),&:nth-of-type(5), &:nth-of-type(4) {
+            display: none;
+          }
         }
       }
     }
