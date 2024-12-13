@@ -115,6 +115,7 @@
     }
 
     @media (max-width: 550px) {
+        background-attachment: unset;
         padding: 55px 0px 0px;
         overflow: hidden;
         .blog-holder {

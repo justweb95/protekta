@@ -189,6 +189,7 @@
     }
   }
   @media (max-width: 800px) {
+    background-attachment: unset;
     padding: 60px 20px 55px;
     .single-blog-holder {
       .content-title {

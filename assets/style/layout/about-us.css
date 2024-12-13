@@ -209,6 +209,8 @@
     }
   }
   @media (max-width: 550px) {
+    background-attachment: unset;
+    overflow: hidden;
     .about-holder {
       padding: 40px 15px 70px;
       .about-content {
