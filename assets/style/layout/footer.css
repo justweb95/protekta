@@ -70,11 +70,12 @@ footer {
     .footer-services {
       list-style: none;
       margin-right: 120px;
+
       .footer-services-header {
         font-size: 20px;
         margin-bottom: 31px;
         font-weight: 700;
-        margin-top: 0px;
+        margin-top: 5px;
       }
       li {
         font-family: 'Montserrat', sans-serif;

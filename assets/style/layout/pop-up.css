@@ -23,6 +23,9 @@
     &:hover {
       cursor: pointer;
     }
+    &:focus {
+      outline: none;
+    }
   }
   .modal-hero {
     padding: 30px 38px 65px;
@@ -105,7 +108,7 @@
         font-weight: 700;
         line-height: 49px;
         text-align: center;
-        /* color: var(--mint-color); */
+        color: #4E4E4E;
       }
     }
     .back-to-form-btn {
@@ -118,9 +121,9 @@
       font-weight: 700;
       line-height: 18.2px;
       text-align: left;
-      color: var(--mint-color);
+      color: #4E4E4E;
       border-radius: 8px;
-      border: 3px solid #07BCB333;
+      border: 3px solid #4E4E4E;
       padding: 19px 56px;
       text-decoration: none;
       transition: .3s ease;
@@ -143,6 +146,7 @@
 
   @media (max-width: 550px) {
     .close-modal-btn {
+      box-shadow: unset;
       top: 21px;
       right: 22px;
       padding: 8px 9px;

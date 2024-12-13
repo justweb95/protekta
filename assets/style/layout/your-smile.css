@@ -1,6 +1,6 @@
 .your-smile {
   padding: 65px 0px;
-  background-color: white;
+  background-color: #efecec;
   .your-smile-holder {
     h2 {
       font-family: 'Montserrat', sans-serif;
@@ -151,6 +151,7 @@
         text-align: center;        
       }
       .your-smile-p {
+        color: #4E4E4E;
         font-size: 18px;
         line-height: 18px;
         text-align: left;

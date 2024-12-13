@@ -41,6 +41,10 @@
           border: 3px solid #b2ffe9;
           /* margin-left: -15px; */
         }
+        &:last-of-type {
+          position: relative;
+          right: -20px;
+        }
       }
     }
     .burger-menu {
@@ -113,7 +117,7 @@
             text-align: left;
             color: #FFFFFF;
             border: 5px solid #FFFFFFCC;
-            background: #74D2B0;
+            background: #71DECA;
             svg {
               pointer-events: none;
               vertical-align: middle;
@@ -136,7 +140,7 @@
             font-weight: 600;
             line-height: 18.2px;
             text-align: left;
-            color: #74D2B0;
+            color: #71DECA;
             /* border: 5px solid #FFFFFFCC */
           }
         }
