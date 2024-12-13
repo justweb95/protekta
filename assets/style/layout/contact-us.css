@@ -279,11 +279,11 @@
         line-height: 36px;
         margin-bottom: 0px;
         text-align: center;
-        color: #000000;
+        color: #767676;
       }
       .contact-us-header-mobile {
         display: block;
-        color: #000000;
+        color: #767676;
       }
       .contact-us-header-desktop {
         display: none;
@@ -293,7 +293,7 @@
         max-width: 100%;
         span {
           a {
-            color: #000000 !important;
+            color: #767676 !important;
           }
         }
         .our-social-media {

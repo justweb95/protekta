@@ -237,7 +237,16 @@
         justify-content: center; 
         .img-holder {
           .img-description {
+            font-size: 14px;
+            width: 100%;
             color: black;
+            font-weight: 500;
+          }
+          .female-description {
+            left: 0%;
+          }
+          .male-description {
+            right: 0%;
           }
         }   
       }

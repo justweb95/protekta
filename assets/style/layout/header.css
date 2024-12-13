@@ -63,7 +63,7 @@
         .burger-menu-header {
           height: fit-content;
           padding: 13px 20px;
-          background: #74D2B0;
+          background: #71DECA;
           border-bottom: 1px solid #FFFFFF;
           flex: 1 0 100%;
           display: flex;
@@ -72,7 +72,7 @@
         }
         .burger-nav {
           height: fit-content;
-          background: #74D2B0;
+          background: #ffffff;
           flex: 1 0 100%;
           display: flex;
           flex-wrap: wrap;
@@ -81,7 +81,7 @@
           list-style: none;
           .burger-nav-link {
             flex: 0 0 100%;
-            border-bottom: 1px solid #FFFFFF;
+            border-bottom: 1px solid #0000000D;
             .link {
               width: 100%;
               display: inline-block;
@@ -92,7 +92,7 @@
               font-weight: 600;
               line-height: 18.2px;
               text-align: left;
-              color: #FFFFFF;
+              color: #222222;
             }
           }
         }
