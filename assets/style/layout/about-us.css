@@ -212,6 +212,7 @@
     background-attachment: unset;
     .about-holder {
       padding: 40px 15px 70px;
+      overflow-x: clip;
       .about-content {
         h2 {
           color: #4E4E4E;
