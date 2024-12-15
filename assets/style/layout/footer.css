@@ -211,7 +211,7 @@ footer {
             max-width: 100%;
           }
           svg {
-            width: 22px;
+            min-width: 22px;
             margin-right: 16px;
           }
           .logo-link {
@@ -226,6 +226,7 @@ footer {
           &:last-of-type {
             a {
               line-height: 20px;
+              margin-left: 3px;
             } 
           } 
         }
