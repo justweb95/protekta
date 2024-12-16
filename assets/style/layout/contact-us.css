@@ -92,6 +92,9 @@
       .our-social-media {
         margin-top: auto;
         display: inline-block;
+        a {
+          text-decoration: none;
+        }
         svg {
           transition: .3s ease;
           margin: 0px 45px 0px 0px;
