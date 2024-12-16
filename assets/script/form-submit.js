@@ -94,8 +94,8 @@ submitButton.addEventListener('click', (event) => {
 
   // Prepare form data for submission
   const formData = new FormData();
-  formData.append('service_id', 'service_cmeo37h');
-  formData.append('template_id', 'template_uqxm6ie');
+  formData.append('service_id', 'service_hdznhfs');
+  formData.append('template_id', 'template_r16u3p6');
   formData.append('user_id', '8R2zmqL1zRDo5n1Ug');
   formData.append('from_name', fromName.value);
   formData.append('reply_to', replyTo.value);
