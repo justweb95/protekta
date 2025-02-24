@@ -80,28 +80,71 @@
         }
       }
 
-      /* Gallery Modal */
       .gallery-dialog {
-        .gallery-dialog-header {
-          .gallery-logo {
+        z-index: 1000;
+        margin: 2% auto 0px;
+        border: none;
+        padding: 0;
+        width: 90%;
+        max-width: 1200px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      }
 
-          }
-          .gallery-close-btn {
+      .gallery-dialog::backdrop {
+        background: rgba(0, 0, 0, 0.8);
+      }
 
-          }
+      .gallery-dialog-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background: #f8fafc;
+        border-bottom: 1px solid #e2e8f0;
+      }
+
+      .gallery-logo {
+        height: 40px;
+        width: auto;
+      }
+
+      .gallery-close-btn {
+        cursor: pointer;
+        height: 30px;
+        transition: transform 0.2s;
+      }
+
+      .gallery-close-btn:hover {
+        transform: scale(1.1);
+      }
+
+      .gallery-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        padding: 2rem;
+        max-height: 70vh;
+        overflow-y: auto;
+      }
+
+      .gallery-items img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+
+      @media (max-width: 768px) {
+        .gallery-dialog {
+          width: 95%;
         }
+        
         .gallery-items {
-          img {
-
-          }
-        }
-        .gallery-see-more {
-          .gsm-btn {
-
-          }
-          .gsm-svg {
-
-          }
+          grid-template-columns: repeat(2, 1fr);
+          padding: 1rem;
         }
       }
     }
@@ -255,4 +298,120 @@
       }
     }
   }
+}
+
+
+/* Add these CSS styles */
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  cursor: pointer;
+  user-select: none;
+  &:focus {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
+
+}
+
+.lightbox-content {
+  user-select: none;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:focus {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
+
+}
+
+.lightbox-image {
+  max-width: 90%;
+  max-height: 90vh;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+  &:focus {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
+
+}
+
+.lightbox-close {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 1001;
+  user-select: none;
+}
+
+.lightbox-nav {
+  user-select: none;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 1001;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  &:focus {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
+}
+
+.lightbox-prev {
+  left: 0;
+}
+
+.lightbox-next {
+  right: 0;
+}
+
+/* Hide original dialog images when lightbox is open */
+.lightbox-overlay.active ~ .gallery-dialog .gallery-items {
+  visibility: hidden;
+}
+
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+.lightbox-overlay[style*="display: block"] {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.no-scroll {
+  overflow: hidden;
+  touch-action: none;
+}
+
+.lightbox-image {
+  transition: opacity 0.3s ease;
 }
