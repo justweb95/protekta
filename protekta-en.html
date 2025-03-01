@@ -108,14 +108,37 @@
 
           <p>The expert team of the Protekta dental clinic consists of <span>Dr. Anđela Stanković</span> and <span>Dr. Velibor Stanković</span> Together, we offer all types of dental services, using the most advanced equipment and premium brand materials in a newly designed, modern, and comfortable environment. Our goal is to provide maximum comfort, satisfaction, and restore a healthy smile to the faces of our dear patients.</p>
           <div class="about-image about-image-mobile">
-            <span class="img-holder">
+            <figure id="popover-btn-andjela-mobile" class="img-holder">
               <img src="./assets/images/female-doc.webp" alt="Female Doctor" class="female-doc">
-              <p class="img-description female-description">Anđela Stanković <br><small>dentist</small></p>
-            </span>
-            <span class="img-holder">
-              <img src="./assets/images/male-doc.webp" alt="Male Doctor" class="male-doc">  
-              <p class="img-description male-description">Velibor Stanković <br><small>dentist</small></p>
-            </span>
+              <p class="img-description female-description">
+                  Anđela Stanković <br><small>dentist</small>
+              </p>
+              <div id="popover-andjela-mobile" class="extra-description">
+                <span>Dr. Anđela Stanković</span> <br> <br>
+                Was born in 1993 in Leskovac, where she completed primary and secondary medical school - majoring in dental technician.
+                She continues her further education in Niš, where she enrolled in the Faculty of Medicine at the Department of Dentistry and graduates in 2018. 
+                After completing the internship and passing the professional exam, she continues working in the profession as doctor of dental medicine.
+                She attended education in the field of antiaging medicine, endodontic treatment and dental treatment. Also, actively participates in continuing education programs.
+                She is dedicated to preventive and conservative dentistry, and in the future she plans to improve her skills in the field of aesthetic dentistry and rootcanal treatment (endodontics).
+                She is one of the founders of Protekta Dental Clinic together with her husband Dr. Velibor Stanković.
+              </div>
+          </figure>
+      
+          <figure id="popover-btn-velibor-mobile" class="img-holder">
+              <img src="./assets/images/male-doc.webp" alt="Male Doctor" class="male-doc">
+              <p class="img-description male-description">
+                  Velibor Stanković <br><small>dentist</small>
+              </p>
+              <div id="popover-velibor-mobile" class="extra-description">
+                <span>Dr. Velibor Stanković</span> <br> <br>
+                  Was born in 1989 in Leskovac, where he completed primary and secondary medical school - majoring in dental technician. 
+                  He continues his further education in Novi Sad, where he enrolls in the Faculty of Medicine at the Department of Dentistry.        
+                  After completing the internship and passing the professional exam, he continues working in the profession as doctor of dental medicine.
+                  He attended education in the field of prosthetics and implantology. Also, actively participates in continuing education programs. 
+                  In the future, he plans to perfect the production of dental veneers and luminaries, as well as to deal with the installation of dental implants and implant prosthetics.
+                  He is one of the founders of Protekta Dental Clinic together with his wife, Dr. Anđela Stanković.
+              </div>
+            </figure>
           </div>
 
           <p>Together, we provide all kinds of services in the field of dentistry, using the most modern equipment and materials of premium brands in a new, modern and pleasant environment, with the aim of providing maximum comfort, satisfaction and restoring a healthy smile to the face of our dear patients.</p>
@@ -130,43 +153,156 @@
             </div>
 
             <article class="gallery-items">
-              <img src="./assets/images/gallery/gallery-item-1.webp" alt="Gallery Item 1" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-2.webp" alt="Gallery Item 2" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-3.webp" alt="Gallery Item 3" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-4.webp" alt="Gallery Item 4" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-5.webp" alt="Gallery Item 5" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-6.webp" alt="Gallery Item 6" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-7.webp" alt="Gallery Item 7" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-8.webp" alt="Gallery Item 8" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-9.webp" alt="Gallery Item 9" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-10.webp" alt="Gallery Item 10" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-11.webp" alt="Gallery Item 11" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-12.webp" alt="Gallery Item 12" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-13.webp" alt="Gallery Item 13" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-15.webp" alt="Gallery Item 15" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-16.webp" alt="Gallery Item 16" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-17.webp" alt="Gallery Item 17" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-18.webp" alt="Gallery Item 18" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-19.webp" alt="Gallery Item 19" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-19a.webp" alt="Gallery Item 14" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-20.webp" alt="Gallery Item 20" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-21.webp" alt="Gallery Item 21" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-22.webp" alt="Gallery Item 22" loading="lazy">
-              <img src="./assets/images/gallery/gallery-item-23.webp" alt="Gallery Item 23" loading="lazy">
-            </article>
+              <img srcset="./assets/images/gallery/gallery-item-1-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-1-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-1-1200.webp" alt="Gallery Item 1">
 
+              <img srcset="./assets/images/gallery/gallery-item-2-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-2-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-2-1200.webp" alt="Gallery Item 2">
+
+              <img srcset="./assets/images/gallery/gallery-item-3-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-3-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-3-1200.webp" alt="Gallery Item 3">
+
+              <img srcset="./assets/images/gallery/gallery-item-4-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-4-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-4-1200.webp" alt="Gallery Item 4">
+
+              <img srcset="./assets/images/gallery/gallery-item-5-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-5-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-5-1200.webp" alt="Gallery Item 5">
+
+              <img srcset="./assets/images/gallery/gallery-item-6-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-6-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-6-1200.webp" alt="Gallery Item 6">
+
+              <img srcset="./assets/images/gallery/gallery-item-7-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-7-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-7-1200.webp" alt="Gallery Item 7">
+
+              <img srcset="./assets/images/gallery/gallery-item-8-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-8-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-8-1200.webp" alt="Gallery Item 8">
+
+              <img srcset="./assets/images/gallery/gallery-item-9-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-9-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-9-1200.webp" alt="Gallery Item 9">
+
+              <img srcset="./assets/images/gallery/gallery-item-10-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-10-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-10-1200.webp" alt="Gallery Item 10">
+
+              <img srcset="./assets/images/gallery/gallery-item-11-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-11-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-11-1200.webp" alt="Gallery Item 11">
+
+              <img srcset="./assets/images/gallery/gallery-item-12-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-12-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-12-1200.webp" alt="Gallery Item 12">
+
+              <img srcset="./assets/images/gallery/gallery-item-13-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-13-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-13-1200.webp" alt="Gallery Item 13">
+
+              <img srcset="./assets/images/gallery/gallery-item-15-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-15-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-15-1200.webp" alt="Gallery Item 15">
+
+              <img srcset="./assets/images/gallery/gallery-item-16-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-16-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-16-1200.webp" alt="Gallery Item 16">
+
+              <img srcset="./assets/images/gallery/gallery-item-17-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-17-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-17-1200.webp" alt="Gallery Item 17">
+
+              <img srcset="./assets/images/gallery/gallery-item-18-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-18-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-18-1200.webp" alt="Gallery Item 18">
+
+              <img srcset="./assets/images/gallery/gallery-item-19-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-19-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-19-1200.webp" alt="Gallery Item 19">
+
+              <img srcset="./assets/images/gallery/gallery-item-14-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-14-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-14-1200.webp" alt="Gallery Item 14">
+
+              <img srcset="./assets/images/gallery/gallery-item-20-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-20-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-20-1200.webp" alt="Gallery Item 20">
+
+              <img srcset="./assets/images/gallery/gallery-item-21-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-21-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-21-1200.webp" alt="Gallery Item 21">
+
+              <img srcset="./assets/images/gallery/gallery-item-22-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-22-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-22-1200.webp" alt="Gallery Item 22">
+
+              <img srcset="./assets/images/gallery/gallery-item-23-500.webp 500w, 
+                  ./assets/images/gallery/gallery-item-23-1200.webp 1200w" 
+                sizes="(max-width: 550px) 500px, 1200px" 
+                src="./assets/images/gallery/gallery-item-23-1200.webp" alt="Gallery Item 23">
+          </article>
           </dialog>
         </article>
 
         <div class="about-image about-image-desktop">
-          <span class="img-holder">
+          <figure id="popover-btn-andjela" class="img-holder">
             <img src="./assets/images/female-doc.webp" alt="Female Doctor" class="female-doc">
-            <p class="img-description female-description">Anđela Stanković <br><small>dentist</small></p>
-          </span>
-          <span class="img-holder">
-            <img src="./assets/images/male-doc.webp" alt="Male Doctor" class="male-doc">  
-            <p class="img-description male-description">Velibor Stanković <br><small>dentist</small></p>
-          </span>
+            <p class="img-description female-description">
+                Anđela Stanković <br><small>dentist</small>
+            </p>
+            <div id="popover-andjela" class="extra-description">
+              <span>Dr. Anđela Stanković</span> <br> <br>
+              Was born in 1993 in Leskovac, where she completed primary and secondary medical school - majoring in dental technician.
+              She continues her further education in Niš, where she enrolled in the Faculty of Medicine at the Department of Dentistry and graduates in 2018. 
+              After completing the internship and passing the professional exam, she continues working in the profession as doctor of dental medicine.
+              She attended education in the field of antiaging medicine, endodontic treatment and dental treatment. Also, actively participates in continuing education programs.
+              She is dedicated to preventive and conservative dentistry, and in the future she plans to improve her skills in the field of aesthetic dentistry and rootcanal treatment (endodontics).
+              She is one of the founders of Protekta Dental Clinic together with her husband Dr. Velibor Stanković.
+            </div>
+        </figure>
+    
+        <figure id="popover-btn-velibor" class="img-holder">
+            <img src="./assets/images/male-doc.webp" alt="Male Doctor" class="male-doc">
+            <p class="img-description male-description">
+                Velibor Stanković <br><small>dentist</small>
+            </p>
+            <div id="popover-velibor" class="extra-description">
+              <span>Dr. Velibor Stanković</span> <br> <br>
+                Was born in 1989 in Leskovac, where he completed primary and secondary medical school - majoring in dental technician. 
+                He continues his further education in Novi Sad, where he enrolls in the Faculty of Medicine at the Department of Dentistry.        
+                After completing the internship and passing the professional exam, he continues working in the profession as doctor of dental medicine.
+                He attended education in the field of prosthetics and implantology. Also, actively participates in continuing education programs. 
+                In the future, he plans to perfect the production of dental veneers and luminaries, as well as to deal with the installation of dental implants and implant prosthetics.
+                He is one of the founders of Protekta Dental Clinic together with his wife, Dr. Anđela Stanković.
+            </div>
+          </figure>
         </div>
       </div>
     </section>

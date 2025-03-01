@@ -105,15 +105,12 @@
         border-bottom: 1px solid #e2e8f0;
       }
 
-      .gallery-logo {
-        height: 40px;
-        width: auto;
-      }
 
       .gallery-close-btn {
         cursor: pointer;
         height: 30px;
         transition: transform 0.2s;
+        margin-left: auto;
       }
 
       .gallery-close-btn:hover {
@@ -123,10 +120,27 @@
       .gallery-items {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 1.5rem;
+        gap: 12px;
         padding: 2rem;
         max-height: 70vh;
         overflow-y: auto;
+        &::backdrop {
+          background-color: #2e2e2ea9;
+        }
+        &::-webkit-scrollbar {
+          margin-right: -20px;
+          width: 4px; 
+          border-radius: 10px;
+        }
+      
+        &::-webkit-scrollbar-thumb {
+          background-color: #74D2B0;
+          border-radius: 10px;
+        }
+      
+        &::-webkit-scrollbar-track {
+          background-color: transparent;
+        }
       }
 
       .gallery-items img {
@@ -134,6 +148,12 @@
         height: 200px;
         object-fit: cover;
         border-radius: 8px;
+        border: 2px solid transparent;
+        transition: .3s ease;
+        &:hover {
+          cursor: pointer;
+          border: 2px solid var(--mint-color);
+        }
       }
 
 
@@ -166,6 +186,7 @@
       animation-fill-mode: forwards;
       animation-timeline: view(400px 50px);       
       .img-holder {
+        /* position: relative; */
         border-radius: 15px;
         overflow: hidden;
         max-width: 250px;
@@ -174,11 +195,49 @@
           display: block;
           max-width: 100%;
           height: auto;
+          &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+          }
         }
-        img:hover {
-          transition: .3s ease;
-          transform: scale(1.1);
+        &:hover {
           cursor: pointer;
+          /* .extra-description {
+            opacity: 1;
+            bottom: 0px;
+          } */
+
+        }
+        .extra-description {
+          box-shadow: 5px 5px 100px #3b3b3b;
+          user-select: none;
+          pointer-events: none;
+          padding: 24px 18px;
+          opacity: 0;
+          z-index: 10;
+          max-width: 100%;
+          min-height: 100%;
+          position: absolute;
+          bottom: 0%;
+          left: -50%;
+          background-color: #ffffff;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          color: #4E4E4E;
+          margin-top: 5px;
+          transition: .5s ease;
+          span {
+            font-size: 18px;
+            font-weight: 600;
+            color: #4E4E4E;  
+          }
+          &::backdrop {
+            background-color: #4E4E4E;
+          }
+        }
+        #popover-andjela {
+          left: calc(-100% - 13px);
         }
         .img-description {
           z-index: 2;
@@ -186,15 +245,20 @@
           bottom: -50px;
           color: #000000;
           font-family: 'Montserrat', sans-serif;
-          font-size: 16px;
+          font-size: 14px;
           font-weight: 400;
           line-height: 20px;
         }
+        .img-holder:hover .img-description {
+            color: #000; /* Optional: Change text color of description on hover */
+        }
         .female-description {
+          text-align: center;
           left: 25%;
           transform: translate(-50%);
         }
         .male-description {
+          text-align: center;
           right: 25%;
           transform: translate(50%);
         }
@@ -231,6 +295,18 @@
         .img-holder {
           overflow: visible;
           position: relative;
+          .extra-description {
+            box-shadow: 5px 5px 12px;
+            width: calc(200% + 25px);
+            max-width: unset;
+            bottom: -10%;
+            left: 0%;
+            font-size: 14px;
+          }  
+          #popover-velibor-mobile {
+            right: 0%;
+            left: unset;
+          }
           img {
             border-radius: 8px;
             &:hover {
@@ -282,6 +358,9 @@
         max-width: 100%;    
         justify-content: center; 
         .img-holder {
+          .extra-description {
+            bottom: -23%;
+          }
           .img-description {
             font-size: 14px;
             width: 100%;
@@ -294,8 +373,9 @@
           .male-description {
             right: 0%;
           }
-        }   
+        } 
       }
+
     }
   }
 }
@@ -354,7 +434,7 @@
 }
 
 .lightbox-close {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 30px;
   color: white;
@@ -366,7 +446,7 @@
 
 .lightbox-nav {
   user-select: none;
-  position: fixed;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   color: white;
@@ -415,3 +495,4 @@
 .lightbox-image {
   transition: opacity 0.3s ease;
 }
+

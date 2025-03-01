@@ -72,7 +72,7 @@ const ModalData = [
             <li>Ugradnja veštačke kosti i bio membrana,</li>
             <li>Transplantacija grafta sa nepca</li>
             </ul>
-            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/inpmplants.webp`
     },
@@ -103,7 +103,7 @@ const ModalData = [
             <li>Sinus lift</li>
             <li>Terapija otvorenog maxilarnog sinusa.</li>
             </ul>
-            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/hirurgija.webp`
     },
@@ -137,7 +137,7 @@ const ModalData = [
             <li>mogućnost ugradnje najkvalitetnijih zubnih garnitura
 u protezu (Candular, Vita sedmoslojni zubi)</li>
             </ul>
-            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/protetika.webp`
     },
@@ -166,7 +166,7 @@ u protezu (Candular, Vita sedmoslojni zubi)</li>
             <li>Ukazivanje prve pomoći kod zubobolje</li>
             <li>Vađenje zuba</li>
             </ul>
-            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/stomatologija.webp`
     },
@@ -191,7 +191,7 @@ u protezu (Candular, Vita sedmoslojni zubi)</li>
             <li>Interseansna medikacija</li>
             <li>Mašinska endodoncija</li>
             </ul>
-            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/endodonacija.webp`
     },
@@ -218,7 +218,7 @@ u protezu (Candular, Vita sedmoslojni zubi)</li>
             <li>Izrada folija za ispravljanje zuba (Invisalign)</li>
             <li>Izrada retainera nakon skidanja ortodontskog aparata</li>
             </ul>
-            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/ortodonacija.webp`
     },
@@ -244,7 +244,7 @@ u protezu (Candular, Vita sedmoslojni zubi)</li>
             <li>Obrada parodontalnih džepova</li>
             <li>Drenaža akutnog parodontalnog apscesa</li>
             </ul>
-            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/paradontologija.webp`
     },
@@ -271,7 +271,7 @@ u protezu (Candular, Vita sedmoslojni zubi)</li>
             <li>Uklanjanje mekih naslaga</li>
             <li>Ekstrakcija mlečnog zuba</li>
             </ul>
-            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/decija.webp`
     },
@@ -298,7 +298,7 @@ u protezu (Candular, Vita sedmoslojni zubi)</li>
                 Neophodno je <mark>24h pre i nakon</mark> intervencije izbegavati<br>
                 alkohol, pušenje, obojenu hranu i pića.<br>
             </p>
-            <a href="tel:+381603840740" class="back-to-form-btn">Zakaži Termin</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Zakaži Termin</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/izbeljivanje.webp`
     }

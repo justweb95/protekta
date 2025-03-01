@@ -64,7 +64,7 @@ const ModalData = [
             </p>
             <h3 class="modal-content-title">Installation of artificial bone and bio-membrane</h3>
             <h3 class="modal-content-title">Graft transplantation from the palate</h3>
-            <a href="tel:+381603840740" class="back-to-form-btn">Schedule Appointment</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Schedule Appointment</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/inpmplants.webp`
     },
@@ -95,7 +95,7 @@ const ModalData = [
             <li>Sinus lift</li>
             <li>Treatment of open maxillary sinus.</li>
             </ul>
-            <a href="tel:+381603840740" class="back-to-form-btn">Schedule Appointment</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Schedule Appointment</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/hirurgija.webp`
     },
@@ -128,7 +128,7 @@ const ModalData = [
                 Bredent BioHPP prostheses.
             </p>
             <h3 class="modal-content-title">Implant-supported prostheses</h3>
-            <a href="tel:+381603840740" class="back-to-form-btn">Schedule Appointment</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Schedule Appointment</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/protetika.webp`
     },
@@ -159,7 +159,7 @@ const ModalData = [
                 <li>Providing first aid for toothache</li>
                 <li>Tooth extraction</li>
                 </ul>
-                <a href="tel:+381603840740" class="back-to-form-btn">Schedule Appointment</a>
+                <a href="tel:+38169616000" class="back-to-form-btn">Schedule Appointment</a>
             </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/stomatologija.webp`
     },
@@ -183,7 +183,7 @@ const ModalData = [
                 <li>Treatment and processing of root canals in cases of pulpitis, <br> periodontitis, and tooth gangrene,</li>
                 <li>Mechanical endodontics.</li>
                 </ul>
-                <a href="tel:+381603840740" class="back-to-form-btn">Schedule Appointment</a>
+                <a href="tel:+38169616000" class="back-to-form-btn">Schedule Appointment</a>
             </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/endodonacija.webp`
     },
@@ -209,7 +209,7 @@ const ModalData = [
                 <li>Creation of fixed orthodontic braces</li>
                 <li>Aligners and retainers for straightening teeth.</li>
                 </ul>
-                <a href="tel:+381603840740" class="back-to-form-btn">Schedule Appointment</a>
+                <a href="tel:+38169616000" class="back-to-form-btn">Schedule Appointment</a>
             </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/ortodonacija.webp`
     },
@@ -234,7 +234,7 @@ const ModalData = [
             <li>Removal of tartar</li>
             <li>Treatment of periodontal pockets</li>
             </ul>
-            <a href="tel:+381603840740" class="back-to-form-btn">Schedule Appointment</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Schedule Appointment</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/paradontologija.webp`
     },
@@ -261,7 +261,7 @@ const ModalData = [
                 <li>Fluoridation</li>
                 <li>Removal of soft deposits</li>
                 </ul>
-                <a href="tel:+381603840740" class="back-to-form-btn">Schedule Appointment</a>
+                <a href="tel:+38169616000" class="back-to-form-btn">Schedule Appointment</a>
             </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/decija.webp`
     },
@@ -288,7 +288,7 @@ const ModalData = [
                 It is essential to avoid<br>
                 alcohol, smoking, colored food, and drinks <mark>24 hours before and after</mark> the intervention.<br>
             </p>
-            <a href="tel:+381603840740" class="back-to-form-btn">Schedule Appointment</a>
+            <a href="tel:+38169616000" class="back-to-form-btn">Schedule Appointment</a>
         </article>`,
         modalBackgroundImage: `../../../assets/images/pop-up/izbeljivanje.webp`
     }

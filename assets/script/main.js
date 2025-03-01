@@ -196,3 +196,59 @@ document.addEventListener('DOMContentLoaded', () => {
   
   });
   
+  const popoverAndjela = document.getElementById('popover-andjela');
+  const popoverVelibor = document.getElementById('popover-velibor');
+  const popoverAndjelaMobile = document.getElementById('popover-andjela-mobile');
+  const popoverVeliborMobile = document.getElementById('popover-velibor-mobile');
+
+  const popoverAndjelaButton = document.getElementById('popover-btn-andjela');
+  const popoverVeliborButton = document.getElementById('popover-btn-velibor');
+  const popoverAndjelaButtonMobile = document.getElementById('popover-btn-andjela-mobile');
+  const popoverVeliborButtonMobile = document.getElementById('popover-btn-velibor-mobile');
+
+  const hidePopovers = () => {
+    popoverAndjela.style.opacity = '0';
+    popoverVelibor.style.opacity = '0';
+    popoverAndjelaMobile.style.opacity = '0';
+    popoverVeliborMobile.style.opacity = '0';
+  };
+
+  const togglePopover = (popover) => {
+    if (popover.style.opacity === '1') {
+      hidePopovers();
+    } else {
+      hidePopovers();
+      popover.style.opacity = '1';
+    }
+  };
+
+  popoverAndjelaButton.addEventListener('click', (event) => {
+    event.stopPropagation();
+    togglePopover(popoverAndjela);
+  });
+
+  popoverVeliborButton.addEventListener('click', (event) => {
+    event.stopPropagation();
+    togglePopover(popoverVelibor);
+  });
+
+  popoverAndjelaButtonMobile.addEventListener('click', (event) => {
+    event.stopPropagation();
+    togglePopover(popoverAndjelaMobile);
+  });
+
+  popoverVeliborButtonMobile.addEventListener('click', (event) => {
+    event.stopPropagation();
+    togglePopover(popoverVeliborMobile);
+  });
+
+  document.addEventListener('click', (event) => {
+    if (
+      !popoverAndjela.contains(event.target) &&
+      !popoverVelibor.contains(event.target) &&
+      !popoverAndjelaMobile.contains(event.target) &&
+      !popoverVeliborMobile.contains(event.target)
+    ) {
+      hidePopovers();
+    }
+  });
