@@ -25,6 +25,9 @@
           line-height: 20px;
           color: #FFFFFF;
           text-decoration: none;
+          &:hover {
+            cursor: pointer;
+          }
         }
         .big-white {
           position: relative;
