@@ -69,7 +69,7 @@
         animation-name: fadeInRightLeft; 
         animation-duration: 1s;
         animation-fill-mode: forwards;
-        animation-timeline: view(600px 50px); 
+        /* animation-timeline: view(600px 50px);  */
         
         &:hover {
           cursor: pointer;
@@ -160,6 +160,7 @@
       @media (max-width: 768px) {
         .gallery-dialog {
           width: 95%;
+          margin-top: 10%;
         }
         
         .gallery-items {
